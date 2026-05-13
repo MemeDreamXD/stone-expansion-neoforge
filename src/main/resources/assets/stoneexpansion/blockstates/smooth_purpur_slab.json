@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stoneexpansion:block/smooth_purpur_slab"
+    },
+    "type=double": {
+      "model": "stoneexpansion:block/smooth_purpur"
+    },
+    "type=top": {
+      "model": "stoneexpansion:block/smooth_purpur_slab_top"
+    }
+  }
+}

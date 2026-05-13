@@ -1,0 +1,8 @@
+{
+  "parent": "stoneexpansion:block/pillar_wall_inventory",
+  "textures": {
+    "bottom": "minecraft:block/deepslate_top",
+    "top": "minecraft:block/deepslate_top",
+    "wall": "minecraft:block/deepslate"
+  }
+}

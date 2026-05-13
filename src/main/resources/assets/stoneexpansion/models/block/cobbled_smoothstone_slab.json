@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "stoneexpansion:block/cobbled_smoothstone",
+    "side": "stoneexpansion:block/cobbled_smoothstone",
+    "top": "stoneexpansion:block/cobbled_smoothstone"
+  }
+}

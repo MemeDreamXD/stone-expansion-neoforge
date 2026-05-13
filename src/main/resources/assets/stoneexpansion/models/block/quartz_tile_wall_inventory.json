@@ -1,0 +1,8 @@
+{
+  "parent": "stoneexpansion:block/pillar_wall_inventory",
+  "textures": {
+    "bottom": "stoneexpansion:block/quartz_tiles",
+    "top": "stoneexpansion:block/quartz_tiles",
+    "wall": "stoneexpansion:block/quartz_tiles"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stoneexpansion:block/mud_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/packed_mud"
+    },
+    "type=top": {
+      "model": "stoneexpansion:block/mud_slab_top"
+    }
+  }
+}

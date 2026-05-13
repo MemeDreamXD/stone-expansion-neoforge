@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "stoneexpansion:block/smooth_diorite",
+    "side": "stoneexpansion:block/smooth_diorite",
+    "top": "stoneexpansion:block/smooth_diorite"
+  }
+}

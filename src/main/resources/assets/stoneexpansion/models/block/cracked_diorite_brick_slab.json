@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "stoneexpansion:block/cracked_diorite_bricks",
+    "side": "stoneexpansion:block/cracked_diorite_bricks",
+    "top": "stoneexpansion:block/cracked_diorite_bricks"
+  }
+}

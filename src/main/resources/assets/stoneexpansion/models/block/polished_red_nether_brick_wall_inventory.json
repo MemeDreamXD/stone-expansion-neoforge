@@ -1,0 +1,8 @@
+{
+  "parent": "stoneexpansion:block/pillar_wall_inventory",
+  "textures": {
+    "bottom": "stoneexpansion:block/polished_red_nether_bricks",
+    "top": "stoneexpansion:block/polished_red_nether_bricks",
+    "wall": "stoneexpansion:block/polished_red_nether_bricks"
+  }
+}

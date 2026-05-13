@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stoneexpansion:block/dark_granite_slab"
+    },
+    "type=double": {
+      "model": "stoneexpansion:block/dark_granite"
+    },
+    "type=top": {
+      "model": "stoneexpansion:block/dark_granite_slab_top"
+    }
+  }
+}

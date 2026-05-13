@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stoneexpansion:block/sandstone_tile_slab"
+    },
+    "type=double": {
+      "model": "stoneexpansion:block/sandstone_tiles"
+    },
+    "type=top": {
+      "model": "stoneexpansion:block/sandstone_tile_slab_top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stoneexpansion:block/cobbled_blackstone_slab"
+    },
+    "type=double": {
+      "model": "stoneexpansion:block/cobbled_blackstone"
+    },
+    "type=top": {
+      "model": "stoneexpansion:block/cobbled_blackstone_slab_top"
+    }
+  }
+}

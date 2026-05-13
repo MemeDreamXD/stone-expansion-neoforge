@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stoneexpansion:block/smoothstone_tile_slab"
+    },
+    "type=double": {
+      "model": "stoneexpansion:block/smoothstone_tiles"
+    },
+    "type=top": {
+      "model": "stoneexpansion:block/smoothstone_tile_slab_top"
+    }
+  }
+}

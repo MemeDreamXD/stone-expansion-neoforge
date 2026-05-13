@@ -1,0 +1,8 @@
+{
+  "parent": "stoneexpansion:block/pillar_wall_inventory",
+  "textures": {
+    "bottom": "minecraft:block/purpur_block",
+    "top": "minecraft:block/purpur_block",
+    "wall": "minecraft:block/purpur_block"
+  }
+}

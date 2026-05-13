@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "stoneexpansion:block/smooth_bricks",
+    "side": "stoneexpansion:block/cut_bricks",
+    "top": "stoneexpansion:block/smooth_bricks"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "stoneexpansion:block/pillar_wall_inventory",
+  "textures": {
+    "bottom": "stoneexpansion:block/smoothstone_tiles",
+    "top": "stoneexpansion:block/smoothstone_tiles",
+    "wall": "stoneexpansion:block/smoothstone_tiles"
+  }
+}

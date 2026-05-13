@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "stoneexpansion:block/polished_bricks",
+    "side": "stoneexpansion:block/polished_bricks",
+    "top": "stoneexpansion:block/polished_bricks"
+  }
+}

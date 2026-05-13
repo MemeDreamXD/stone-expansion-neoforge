@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stoneexpansion:block/cracked_diorite_brick_slab"
+    },
+    "type=double": {
+      "model": "stoneexpansion:block/cracked_diorite_bricks"
+    },
+    "type=top": {
+      "model": "stoneexpansion:block/cracked_diorite_brick_slab_top"
+    }
+  }
+}

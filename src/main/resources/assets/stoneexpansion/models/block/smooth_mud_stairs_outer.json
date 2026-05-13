@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "stoneexpansion:block/smooth_mud",
+    "side": "stoneexpansion:block/smooth_mud",
+    "top": "stoneexpansion:block/smooth_mud"
+  }
+}

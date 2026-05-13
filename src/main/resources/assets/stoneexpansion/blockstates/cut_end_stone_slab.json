@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stoneexpansion:block/cut_end_stone_slab"
+    },
+    "type=double": {
+      "model": "stoneexpansion:block/cut_end_stone"
+    },
+    "type=top": {
+      "model": "stoneexpansion:block/cut_end_stone_slab_top"
+    }
+  }
+}

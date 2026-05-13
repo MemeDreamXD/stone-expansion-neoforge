@@ -1,0 +1,8 @@
+{
+  "parent": "stoneexpansion:block/template_pillar_wall_side_tall",
+  "textures": {
+    "bottom": "stoneexpansion:block/end_stone_tiles",
+    "top": "stoneexpansion:block/end_stone_tiles",
+    "wall": "stoneexpansion:block/end_stone_tiles"
+  }
+}

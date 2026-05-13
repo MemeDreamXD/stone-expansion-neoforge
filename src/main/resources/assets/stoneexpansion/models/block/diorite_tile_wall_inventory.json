@@ -1,0 +1,8 @@
+{
+  "parent": "stoneexpansion:block/pillar_wall_inventory",
+  "textures": {
+    "bottom": "stoneexpansion:block/diorite_tiles",
+    "top": "stoneexpansion:block/diorite_tiles",
+    "wall": "stoneexpansion:block/diorite_tiles"
+  }
+}

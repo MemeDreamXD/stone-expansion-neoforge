@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stoneexpansion:block/polished_smoothstone_slab"
+    },
+    "type=double": {
+      "model": "stoneexpansion:block/polished_smoothstone"
+    },
+    "type=top": {
+      "model": "stoneexpansion:block/polished_smoothstone_slab_top"
+    }
+  }
+}

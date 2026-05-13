@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stoneexpansion:block/dark_quartz_slab"
+    },
+    "type=double": {
+      "model": "stoneexpansion:block/dark_quartz"
+    },
+    "type=top": {
+      "model": "stoneexpansion:block/dark_quartz_slab_top"
+    }
+  }
+}

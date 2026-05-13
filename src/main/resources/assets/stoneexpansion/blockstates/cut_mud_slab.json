@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stoneexpansion:block/cut_mud_slab"
+    },
+    "type=double": {
+      "model": "stoneexpansion:block/cut_mud"
+    },
+    "type=top": {
+      "model": "stoneexpansion:block/cut_mud_slab_top"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "stoneexpansion:block/quartz_tiles",
+    "side": "stoneexpansion:block/quartz_tiles",
+    "top": "stoneexpansion:block/quartz_tiles"
+  }
+}

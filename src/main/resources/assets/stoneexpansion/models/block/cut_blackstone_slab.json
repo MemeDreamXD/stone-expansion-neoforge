@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "stoneexpansion:block/smooth_blackstone",
+    "side": "stoneexpansion:block/cut_blackstone",
+    "top": "stoneexpansion:block/smooth_blackstone"
+  }
+}

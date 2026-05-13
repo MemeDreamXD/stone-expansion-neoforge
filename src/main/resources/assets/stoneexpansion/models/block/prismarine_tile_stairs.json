@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "stoneexpansion:block/prismarine_tiles",
+    "side": "stoneexpansion:block/prismarine_tiles",
+    "top": "stoneexpansion:block/prismarine_tiles"
+  }
+}

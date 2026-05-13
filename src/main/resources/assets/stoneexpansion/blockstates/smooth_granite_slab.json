@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stoneexpansion:block/smooth_granite_slab"
+    },
+    "type=double": {
+      "model": "stoneexpansion:block/smooth_granite"
+    },
+    "type=top": {
+      "model": "stoneexpansion:block/smooth_granite_slab_top"
+    }
+  }
+}
