@@ -275,6 +275,61 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_RED_SANDSTONE);
             event.accept(ModBlocks.DARK_RED_SANDSTONE_STAIRS);
             event.accept(ModBlocks.DARK_RED_SANDSTONE_SLAB);
+            // Prismarine
+            event.accept(ModBlocks.SMOOTH_PRISMARINE);
+            event.accept(ModBlocks.SMOOTH_PRISMARINE_STAIRS);
+            event.accept(ModBlocks.SMOOTH_PRISMARINE_SLAB);
+            event.accept(ModBlocks.POLISHED_PRISMARINE);
+            event.accept(ModBlocks.POLISHED_PRISMARINE_STAIRS);
+            event.accept(ModBlocks.POLISHED_PRISMARINE_SLAB);
+            event.accept(ModBlocks.POLISHED_PRISMARINE_WALL);
+            event.accept(ModBlocks.CHISELED_PRISMARINE_BRICKS);
+            event.accept(ModBlocks.CUT_PRISMARINE);
+            event.accept(ModBlocks.CUT_PRISMARINE_SLAB);
+            event.accept(ModBlocks.CRACKED_PRISMARINE_BRICKS);
+            event.accept(ModBlocks.PRISMARINE_PILLAR);
+            event.accept(ModBlocks.PRISMARINE_TILES);
+            // Nether Brick
+            event.accept(ModBlocks.COBBLED_NETHER_BRICKS);
+            event.accept(ModBlocks.COBBLED_NETHER_BRICK_STAIRS);
+            event.accept(ModBlocks.COBBLED_NETHER_BRICK_SLAB);
+            event.accept(ModBlocks.COBBLED_NETHER_BRICK_WALL);
+            event.accept(ModBlocks.SMOOTH_NETHER_BRICK);
+            event.accept(ModBlocks.SMOOTH_NETHER_BRICK_STAIRS);
+            event.accept(ModBlocks.SMOOTH_NETHER_BRICK_SLAB);
+            event.accept(ModBlocks.POLISHED_NETHER_BRICK);
+            event.accept(ModBlocks.POLISHED_NETHER_BRICK_STAIRS);
+            event.accept(ModBlocks.POLISHED_NETHER_BRICK_SLAB);
+            event.accept(ModBlocks.POLISHED_NETHER_BRICK_WALL);
+            event.accept(ModBlocks.CUT_NETHER_BRICKS);
+            event.accept(ModBlocks.CUT_NETHER_BRICK_SLAB);
+            event.accept(ModBlocks.NETHER_BRICK_PILLAR);
+            event.accept(ModBlocks.NETHER_BRICK_TILES);
+            event.accept(ModBlocks.DARK_NETHER_BRICKS);
+            event.accept(ModBlocks.DARK_NETHER_BRICK_STAIRS);
+            event.accept(ModBlocks.DARK_NETHER_BRICK_SLAB);
+            // Nether Brick
+            event.accept(ModBlocks.COBBLED_RED_NETHER_BRICKS);
+            event.accept(ModBlocks.COBBLED_RED_NETHER_BRICK_STAIRS);
+            event.accept(ModBlocks.COBBLED_RED_NETHER_BRICK_SLAB);
+            event.accept(ModBlocks.COBBLED_RED_NETHER_BRICK_WALL);
+            event.accept(ModBlocks.SMOOTH_RED_NETHER_BRICK);
+            event.accept(ModBlocks.SMOOTH_RED_NETHER_BRICK_STAIRS);
+            event.accept(ModBlocks.SMOOTH_RED_NETHER_BRICK_SLAB);
+            event.accept(ModBlocks.POLISHED_RED_NETHER_BRICK);
+            event.accept(ModBlocks.POLISHED_RED_NETHER_BRICK_STAIRS);
+            event.accept(ModBlocks.POLISHED_RED_NETHER_BRICK_SLAB);
+            event.accept(ModBlocks.POLISHED_RED_NETHER_BRICK_WALL);
+            event.accept(ModBlocks.CHISELED_RED_NETHER_BRICKS);
+            event.accept(ModBlocks.CUT_RED_NETHER_BRICKS);
+            event.accept(ModBlocks.CUT_RED_NETHER_BRICK_SLAB);
+            event.accept(ModBlocks.CRACKED_RED_NETHER_BRICKS);
+            event.accept(ModBlocks.RED_NETHER_BRICK_PILLAR);
+            event.accept(ModBlocks.RED_NETHER_BRICK_TILES);
+            event.accept(ModBlocks.DARK_RED_NETHER_BRICKS);
+            event.accept(ModBlocks.DARK_RED_NETHER_BRICK_STAIRS);
+            event.accept(ModBlocks.DARK_RED_NETHER_BRICK_SLAB);
+            event.accept(ModBlocks.RED_NETHER_BRICK_FENCE);
         }
 
     }
