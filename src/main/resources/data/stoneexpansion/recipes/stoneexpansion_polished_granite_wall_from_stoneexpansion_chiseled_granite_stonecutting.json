@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "stoneexpansion:chiseled_granite"
+  },
+  "result": "stoneexpansion:polished_granite_wall"
+}

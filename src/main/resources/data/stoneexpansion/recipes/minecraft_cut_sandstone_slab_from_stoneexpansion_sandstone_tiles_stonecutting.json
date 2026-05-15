@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "stoneexpansion:sandstone_tiles"
+  },
+  "result": "minecraft:cut_sandstone_slab"
+}

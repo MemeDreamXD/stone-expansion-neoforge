@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "stoneexpansion:cut_quartz"
+  },
+  "result": "stoneexpansion:cracked_quartz_brick_slab"
+}

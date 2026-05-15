@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_red_nether_brick_pillar": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stoneexpansion:red_nether_brick_pillar"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:stoneexpansion_polished_red_nether_brick_stairs_from_stoneexpansion_red_nether_brick_pillar_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_red_nether_brick_pillar",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:stoneexpansion_polished_red_nether_brick_stairs_from_stoneexpansion_red_nether_brick_pillar_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

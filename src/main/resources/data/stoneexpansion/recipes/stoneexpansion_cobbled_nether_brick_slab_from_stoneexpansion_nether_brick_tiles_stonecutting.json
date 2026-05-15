@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "stoneexpansion:nether_brick_tiles"
+  },
+  "result": "stoneexpansion:cobbled_nether_brick_slab"
+}

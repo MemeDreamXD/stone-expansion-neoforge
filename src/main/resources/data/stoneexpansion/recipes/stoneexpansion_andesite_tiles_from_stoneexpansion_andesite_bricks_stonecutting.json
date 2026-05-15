@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "stoneexpansion:andesite_bricks"
+  },
+  "result": "stoneexpansion:andesite_tiles"
+}

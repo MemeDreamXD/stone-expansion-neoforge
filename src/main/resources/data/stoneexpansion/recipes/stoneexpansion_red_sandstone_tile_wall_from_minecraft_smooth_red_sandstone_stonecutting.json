@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:smooth_red_sandstone"
+  },
+  "result": "stoneexpansion:red_sandstone_tile_wall"
+}

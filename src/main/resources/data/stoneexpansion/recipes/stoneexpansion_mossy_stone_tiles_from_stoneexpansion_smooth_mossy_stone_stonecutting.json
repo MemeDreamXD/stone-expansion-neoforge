@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "stoneexpansion:smooth_mossy_stone"
+  },
+  "result": "stoneexpansion:mossy_stone_tiles"
+}

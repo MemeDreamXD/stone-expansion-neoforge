@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "stoneexpansion:chiseled_prismarine"
+  },
+  "result": "minecraft:prismarine_brick_stairs"
+}

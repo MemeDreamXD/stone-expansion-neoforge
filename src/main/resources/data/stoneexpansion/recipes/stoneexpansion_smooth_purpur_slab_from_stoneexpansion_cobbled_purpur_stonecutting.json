@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "stoneexpansion:cobbled_purpur"
+  },
+  "result": "stoneexpansion:smooth_purpur_slab"
+}

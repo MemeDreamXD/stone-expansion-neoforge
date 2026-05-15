@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_smooth_blackstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stoneexpansion:smooth_blackstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:minecraft_polished_blackstone_stairs_from_stoneexpansion_smooth_blackstone_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_smooth_blackstone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:minecraft_polished_blackstone_stairs_from_stoneexpansion_smooth_blackstone_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

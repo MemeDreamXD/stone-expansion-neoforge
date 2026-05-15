@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "stoneexpansion:chiseled_andesite"
+  },
+  "result": "stoneexpansion:cobbled_andesite_stairs"
+}

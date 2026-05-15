@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "stoneexpansion:andesite_pillar"
+  },
+  "result": "stoneexpansion:polished_andesite_wall"
+}

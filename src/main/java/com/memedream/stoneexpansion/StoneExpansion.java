@@ -123,6 +123,7 @@ public class StoneExpansion
             event.accept(ModBlocks.COBBLED_GRANITE_WALL);
             event.accept(ModBlocks.POLISHED_GRANITE_WALL);
             event.accept(ModBlocks.SMOOTH_GRANITE);
+            event.accept(ModBlocks.SMOOTH_GRANITE_STAIRS);
             event.accept(ModBlocks.SMOOTH_GRANITE_SLAB);
             event.accept(ModBlocks.CHISELED_GRANITE_BRICKS);
             event.accept(ModBlocks.CUT_GRANITE);
@@ -137,18 +138,37 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_GRANITE);
             event.accept(ModBlocks.DARK_GRANITE_STAIRS);
             event.accept(ModBlocks.DARK_GRANITE_SLAB);
-
-            event.accept(ModBlocks.POLISHED_ANDESITE_WALL);
+            // Diorite
+            event.accept(ModBlocks.COBBLED_DIORITE);
+            event.accept(ModBlocks.COBBLED_DIORITE_STAIRS);
+            event.accept(ModBlocks.COBBLED_DIORITE_SLAB);
+            event.accept(ModBlocks.COBBLED_DIORITE_WALL);
             event.accept(ModBlocks.POLISHED_DIORITE_WALL);
-            event.accept(ModBlocks.POLISHED_BASALT_STAIRS);
-            event.accept(ModBlocks.POLISHED_BASALT_SLAB);
-            event.accept(ModBlocks.POLISHED_BASALT_WALL);
-
+            event.accept(ModBlocks.SMOOTH_DIORITE);
+            event.accept(ModBlocks.SMOOTH_DIORITE_STAIRS);
+            event.accept(ModBlocks.SMOOTH_DIORITE_SLAB);
+            event.accept(ModBlocks.CHISELED_DIORITE_BRICKS);
+            event.accept(ModBlocks.CUT_DIORITE);
+            event.accept(ModBlocks.CUT_DIORITE_SLAB);
+            event.accept(ModBlocks.DIORITE_BRICKS);
+            event.accept(ModBlocks.DIORITE_BRICK_STAIRS);
+            event.accept(ModBlocks.DIORITE_BRICK_SLAB);
+            event.accept(ModBlocks.DIORITE_BRICK_WALL);
+            event.accept(ModBlocks.CRACKED_DIORITE_BRICKS);
+            event.accept(ModBlocks.DIORITE_PILLAR);
+            event.accept(ModBlocks.DIORITE_TILES);
+            event.accept(ModBlocks.DARK_DIORITE);
+            event.accept(ModBlocks.DARK_DIORITE_STAIRS);
+            event.accept(ModBlocks.DARK_DIORITE_SLAB);
+            // Andesite
             event.accept(ModBlocks.COBBLED_ANDESITE);
             event.accept(ModBlocks.COBBLED_ANDESITE_STAIRS);
             event.accept(ModBlocks.COBBLED_ANDESITE_SLAB);
             event.accept(ModBlocks.COBBLED_ANDESITE_WALL);
+            event.accept(ModBlocks.POLISHED_ANDESITE_WALL);
             event.accept(ModBlocks.SMOOTH_ANDESITE);
+            event.accept(ModBlocks.SMOOTH_ANDESITE_STAIRS);
+            event.accept(ModBlocks.SMOOTH_ANDESITE_SLAB);
             event.accept(ModBlocks.CHISELED_ANDESITE_BRICKS);
             event.accept(ModBlocks.CUT_ANDESITE);
             event.accept(ModBlocks.CUT_ANDESITE_SLAB);
@@ -160,6 +180,101 @@ public class StoneExpansion
             event.accept(ModBlocks.ANDESITE_PILLAR);
             event.accept(ModBlocks.ANDESITE_TILES);
             event.accept(ModBlocks.DARK_ANDESITE);
+            event.accept(ModBlocks.DARK_ANDESITE_STAIRS);
+            event.accept(ModBlocks.DARK_ANDESITE_SLAB);
+            // Deepslate
+            event.accept(ModBlocks.DEEPSLATE_STAIRS);
+            event.accept(ModBlocks.DEEPSLATE_SLAB);
+            event.accept(ModBlocks.DEEPSLATE_WALL);
+            event.accept(ModBlocks.SMOOTH_DEEPSLATE);
+            event.accept(ModBlocks.SMOOTH_DEEPSLATE_STAIRS);
+            event.accept(ModBlocks.SMOOTH_DEEPSLATE_SLAB);
+            event.accept(ModBlocks.CUT_DEEPSLATE);
+            event.accept(ModBlocks.CUT_DEEPSLATE_SLAB);
+            event.accept(ModBlocks.DEEPSLATE_PILLAR);
+            event.accept(ModBlocks.DARK_DEEPSLATE);
+            event.accept(ModBlocks.DARK_DEEPSLATE_STAIRS);
+            event.accept(ModBlocks.DARK_DEEPSLATE_SLAB);
+            // Bricks
+            event.accept(ModBlocks.COBBLED_BRICKS);
+            event.accept(ModBlocks.COBBLED_BRICK_STAIRS);
+            event.accept(ModBlocks.COBBLED_BRICK_SLAB);
+            event.accept(ModBlocks.COBBLED_BRICK_WALL);
+            event.accept(ModBlocks.SMOOTH_BRICK);
+            event.accept(ModBlocks.SMOOTH_BRICK_STAIRS);
+            event.accept(ModBlocks.SMOOTH_BRICK_SLAB);
+            event.accept(ModBlocks.POLISHED_BRICK);
+            event.accept(ModBlocks.POLISHED_BRICK_STAIRS);
+            event.accept(ModBlocks.POLISHED_BRICK_SLAB);
+            event.accept(ModBlocks.POLISHED_BRICK_WALL);
+            event.accept(ModBlocks.CHISELED_BRICKS);
+            event.accept(ModBlocks.CUT_BRICKS);
+            event.accept(ModBlocks.CUT_BRICK_SLAB);
+            event.accept(ModBlocks.CRACKED_BRICKS);
+            event.accept(ModBlocks.BRICK_PILLAR);
+            event.accept(ModBlocks.BRICK_TILES);
+            event.accept(ModBlocks.DARK_BRICKS);
+            event.accept(ModBlocks.DARK_BRICK_STAIRS);
+            event.accept(ModBlocks.DARK_BRICK_SLAB);
+            // Mud
+            event.accept(ModBlocks.COBBLED_MUD);
+            event.accept(ModBlocks.COBBLED_MUD_STAIRS);
+            event.accept(ModBlocks.COBBLED_MUD_SLAB);
+            event.accept(ModBlocks.COBBLED_MUD_WALL);
+            event.accept(ModBlocks.SMOOTH_MUD);
+            event.accept(ModBlocks.SMOOTH_MUD_STAIRS);
+            event.accept(ModBlocks.SMOOTH_MUD_SLAB);
+            event.accept(ModBlocks.POLISHED_MUD);
+            event.accept(ModBlocks.POLISHED_MUD_STAIRS);
+            event.accept(ModBlocks.POLISHED_MUD_SLAB);
+            event.accept(ModBlocks.POLISHED_MUD_WALL);
+            event.accept(ModBlocks.CHISELED_MUD_BRICKS);
+            event.accept(ModBlocks.CUT_MUD);
+            event.accept(ModBlocks.CUT_MUD_SLAB);
+            event.accept(ModBlocks.CRACKED_MUD_BRICKS);
+            event.accept(ModBlocks.MUD_PILLAR);
+            event.accept(ModBlocks.MUD_TILES);
+            event.accept(ModBlocks.DARK_MUD);
+            event.accept(ModBlocks.DARK_MUD_STAIRS);
+            event.accept(ModBlocks.DARK_MUD_SLAB);
+            // Sandstone
+            event.accept(ModBlocks.COBBLED_SANDSTONE);
+            event.accept(ModBlocks.COBBLED_SANDSTONE_STAIRS);
+            event.accept(ModBlocks.COBBLED_SANDSTONE_SLAB);
+            event.accept(ModBlocks.COBBLED_SANDSTONE_WALL);
+            event.accept(ModBlocks.POLISHED_SANDSTONE);
+            event.accept(ModBlocks.POLISHED_SANDSTONE_STAIRS);
+            event.accept(ModBlocks.POLISHED_SANDSTONE_SLAB);
+            event.accept(ModBlocks.POLISHED_SANDSTONE_WALL);
+            event.accept(ModBlocks.SANDSTONE_BRICKS);
+            event.accept(ModBlocks.SANDSTONE_BRICK_STAIRS);
+            event.accept(ModBlocks.SANDSTONE_BRICK_SLAB);
+            event.accept(ModBlocks.SANDSTONE_BRICK_WALL);
+            event.accept(ModBlocks.CRACKED_SANDSTONE_BRICKS);
+            event.accept(ModBlocks.SANDSTONE_PILLAR);
+            event.accept(ModBlocks.SANDSTONE_TILES);
+            event.accept(ModBlocks.DARK_SANDSTONE);
+            event.accept(ModBlocks.DARK_SANDSTONE_STAIRS);
+            event.accept(ModBlocks.DARK_SANDSTONE_SLAB);
+            // Red Sandstone
+            event.accept(ModBlocks.COBBLED_RED_SANDSTONE);
+            event.accept(ModBlocks.COBBLED_RED_SANDSTONE_STAIRS);
+            event.accept(ModBlocks.COBBLED_RED_SANDSTONE_SLAB);
+            event.accept(ModBlocks.COBBLED_RED_SANDSTONE_WALL);
+            event.accept(ModBlocks.POLISHED_RED_SANDSTONE);
+            event.accept(ModBlocks.POLISHED_RED_SANDSTONE_STAIRS);
+            event.accept(ModBlocks.POLISHED_RED_SANDSTONE_SLAB);
+            event.accept(ModBlocks.POLISHED_RED_SANDSTONE_WALL);
+            event.accept(ModBlocks.RED_SANDSTONE_BRICKS);
+            event.accept(ModBlocks.RED_SANDSTONE_BRICK_STAIRS);
+            event.accept(ModBlocks.RED_SANDSTONE_BRICK_SLAB);
+            event.accept(ModBlocks.RED_SANDSTONE_BRICK_WALL);
+            event.accept(ModBlocks.CRACKED_RED_SANDSTONE_BRICKS);
+            event.accept(ModBlocks.RED_SANDSTONE_PILLAR);
+            event.accept(ModBlocks.RED_SANDSTONE_TILES);
+            event.accept(ModBlocks.DARK_RED_SANDSTONE);
+            event.accept(ModBlocks.DARK_RED_SANDSTONE_STAIRS);
+            event.accept(ModBlocks.DARK_RED_SANDSTONE_SLAB);
         }
 
     }

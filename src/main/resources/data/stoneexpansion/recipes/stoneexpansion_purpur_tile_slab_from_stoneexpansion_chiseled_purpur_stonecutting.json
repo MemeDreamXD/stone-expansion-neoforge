@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "stoneexpansion:chiseled_purpur"
+  },
+  "result": "stoneexpansion:purpur_tile_slab"
+}

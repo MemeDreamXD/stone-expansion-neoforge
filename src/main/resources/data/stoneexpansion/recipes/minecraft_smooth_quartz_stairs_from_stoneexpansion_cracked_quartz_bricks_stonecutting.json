@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "stoneexpansion:cracked_quartz_bricks"
+  },
+  "result": "minecraft:smooth_quartz_stairs"
+}

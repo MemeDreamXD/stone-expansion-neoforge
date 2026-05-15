@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "stoneexpansion:chiseled_smoothstone"
+  },
+  "result": "stoneexpansion:smooth_smoothstone_stairs"
+}

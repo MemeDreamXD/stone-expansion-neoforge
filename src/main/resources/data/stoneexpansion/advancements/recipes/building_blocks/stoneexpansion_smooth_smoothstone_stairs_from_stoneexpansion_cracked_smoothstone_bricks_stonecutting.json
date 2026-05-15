@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cracked_smoothstone_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stoneexpansion:cracked_smoothstone_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:stoneexpansion_smooth_smoothstone_stairs_from_stoneexpansion_cracked_smoothstone_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cracked_smoothstone_bricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:stoneexpansion_smooth_smoothstone_stairs_from_stoneexpansion_cracked_smoothstone_bricks_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

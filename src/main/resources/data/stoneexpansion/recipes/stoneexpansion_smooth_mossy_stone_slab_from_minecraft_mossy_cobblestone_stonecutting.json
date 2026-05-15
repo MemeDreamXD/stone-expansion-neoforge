@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:mossy_cobblestone"
+  },
+  "result": "stoneexpansion:smooth_mossy_stone_slab"
+}

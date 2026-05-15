@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "stoneexpansion:brick_pillar"
+  },
+  "result": "stoneexpansion:cut_brick_slab"
+}

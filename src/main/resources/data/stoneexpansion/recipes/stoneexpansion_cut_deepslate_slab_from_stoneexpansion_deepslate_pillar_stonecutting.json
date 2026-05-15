@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "stoneexpansion:deepslate_pillar"
+  },
+  "result": "stoneexpansion:cut_deepslate_slab"
+}

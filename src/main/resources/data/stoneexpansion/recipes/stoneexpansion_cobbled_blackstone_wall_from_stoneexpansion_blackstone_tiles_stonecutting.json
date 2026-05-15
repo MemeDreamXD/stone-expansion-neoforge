@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "stoneexpansion:blackstone_tiles"
+  },
+  "result": "stoneexpansion:cobbled_blackstone_wall"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "stoneexpansion:dark_quartz"
+  },
+  "result": "stoneexpansion:dark_quartz_wall"
+}

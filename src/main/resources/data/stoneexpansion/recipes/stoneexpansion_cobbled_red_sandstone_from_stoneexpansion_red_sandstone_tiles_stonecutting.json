@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "stoneexpansion:red_sandstone_tiles"
+  },
+  "result": "stoneexpansion:cobbled_red_sandstone"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "stoneexpansion:polished_prismarine"
+  },
+  "result": "stoneexpansion:cut_prismarine_slab"
+}

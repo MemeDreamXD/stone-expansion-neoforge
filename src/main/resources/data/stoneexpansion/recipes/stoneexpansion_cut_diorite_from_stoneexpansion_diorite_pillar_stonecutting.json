@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "stoneexpansion:diorite_pillar"
+  },
+  "result": "stoneexpansion:cut_diorite"
+}

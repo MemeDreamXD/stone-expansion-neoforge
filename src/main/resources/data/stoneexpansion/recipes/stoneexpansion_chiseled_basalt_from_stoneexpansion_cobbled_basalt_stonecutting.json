@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "stoneexpansion:cobbled_basalt"
+  },
+  "result": "stoneexpansion:chiseled_basalt"
+}

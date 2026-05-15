@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "stoneexpansion:smooth_nether_bricks"
+  },
+  "result": "stoneexpansion:cut_nether_bricks"
+}
