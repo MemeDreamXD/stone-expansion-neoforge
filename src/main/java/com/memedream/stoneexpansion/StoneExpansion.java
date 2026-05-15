@@ -330,6 +330,33 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_RED_NETHER_BRICK_STAIRS);
             event.accept(ModBlocks.DARK_RED_NETHER_BRICK_SLAB);
             event.accept(ModBlocks.RED_NETHER_BRICK_FENCE);
+            // Basalt
+            //TODO: Figure out how this texture works
+            event.accept(ModBlocks.BASALT_STAIRS);
+            event.accept(ModBlocks.BASALT_SLAB);
+            event.accept(ModBlocks.BASALT_WALL);
+            event.accept(ModBlocks.COBBLED_BASALT);
+            event.accept(ModBlocks.COBBLED_BASALT_STAIRS);
+            event.accept(ModBlocks.COBBLED_BASALT_SLAB);
+            event.accept(ModBlocks.COBBLED_BASALT_WALL);
+            event.accept(ModBlocks.SMOOTH_BASALT_STAIRS);
+            event.accept(ModBlocks.SMOOTH_BASALT_SLAB);
+            event.accept(ModBlocks.POLISHED_BASALT);
+            event.accept(ModBlocks.POLISHED_BASALT_STAIRS);
+            event.accept(ModBlocks.POLISHED_BASALT_SLAB);
+            event.accept(ModBlocks.POLISHED_BASALT_WALL);
+            event.accept(ModBlocks.CHISELED_BASALT_BRICKS);
+            event.accept(ModBlocks.CUT_BASALT);
+            event.accept(ModBlocks.CUT_BASALT_SLAB);
+            event.accept(ModBlocks.BASALT_BRICKS);
+            event.accept(ModBlocks.BASALT_BRICK_STAIRS);
+            event.accept(ModBlocks.BASALT_BRICK_SLAB);
+            event.accept(ModBlocks.BASALT_BRICK_WALL);
+            event.accept(ModBlocks.CRACKED_BASALT_BRICKS);
+            event.accept(ModBlocks.BASALT_TILES);
+            event.accept(ModBlocks.DARK_BASALT);
+            event.accept(ModBlocks.DARK_BASALT_STAIRS);
+            event.accept(ModBlocks.DARK_BASALT_SLAB);
         }
 
     }

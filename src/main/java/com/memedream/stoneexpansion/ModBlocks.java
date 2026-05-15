@@ -559,6 +559,86 @@ public class ModBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.RED_NETHER_BRICKS)));
     public static final DeferredBlock<FenceBlock> RED_NETHER_BRICK_FENCE = registerBlock("red_nether_brick_fence",
             () -> new FenceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.RED_NETHER_BRICKS)));
+    // Basalt
+     public static final DeferredBlock<StairBlock> BASALT_STAIRS = registerBlock("basalt_stairs",
+             () -> new StairBlock(Blocks.BASALT.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+     public static final DeferredBlock<SlabBlock> BASALT_SLAB = registerBlock("basalt_slab",
+             () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+     public static final DeferredBlock<WallBlock> BASALT_WALL = registerBlock("basalt_wall",
+             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    public static final DeferredBlock<Block> COBBLED_BASALT = registerBlock("cobbled_basalt",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    public static final DeferredBlock<StairBlock> COBBLED_BASALT_STAIRS = registerBlock("cobbled_basalt_stairs",
+            () -> new StairBlock(ModBlocks.COBBLED_BASALT.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    public static final DeferredBlock<SlabBlock> COBBLED_BASALT_SLAB = registerBlock("cobbled_basalt_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    public static final DeferredBlock<WallBlock> COBBLED_BASALT_WALL = registerBlock("cobbled_basalt_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    public static final DeferredBlock<StairBlock> SMOOTH_BASALT_STAIRS = registerBlock("polished_basalt_stairs",
+            () -> new StairBlock(Blocks.SMOOTH_BASALT.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    public static final DeferredBlock<SlabBlock> SMOOTH_BASALT_SLAB = registerBlock("smooth_basalt_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    public static final DeferredBlock<Block> POLISHED_BASALT = registerBlock("polished_basalt",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    public static final DeferredBlock<StairBlock> POLISHED_BASALT_STAIRS = registerBlock("polished_basalt_stairs",
+            () -> new StairBlock(ModBlocks.POLISHED_BASALT.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    public static final DeferredBlock<SlabBlock> POLISHED_BASALT_SLAB = registerBlock("polished_basalt_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    public static final DeferredBlock<WallBlock> POLISHED_BASALT_WALL = registerBlock("polished_basalt_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    public static final DeferredBlock<Block> CHISELED_BASALT_BRICKS = registerBlock("chiseled_basalt_bricks",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    public static final DeferredBlock<Block> CUT_BASALT = registerBlock("cut_basalt",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    public static final DeferredBlock<SlabBlock> CUT_BASALT_SLAB = registerBlock("cut_basalt_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    public static final DeferredBlock<Block> BASALT_BRICKS = registerBlock("basalt_bricks",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    public static final DeferredBlock<StairBlock> BASALT_BRICK_STAIRS = registerBlock("basalt_brick_stairs",
+            () -> new StairBlock(ModBlocks.BASALT_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    public static final DeferredBlock<SlabBlock> BASALT_BRICK_SLAB = registerBlock("basalt_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    public static final DeferredBlock<WallBlock> BASALT_BRICK_WALL = registerBlock("basalt_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    public static final DeferredBlock<Block> CRACKED_BASALT_BRICKS = registerBlock("cracked_basalt_bricks",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    public static final DeferredBlock<Block> BASALT_TILES = registerBlock("basalt_tiles",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    public static final DeferredBlock<Block> DARK_BASALT = registerBlock("dark_basalt",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    public static final DeferredBlock<StairBlock> DARK_BASALT_STAIRS = registerBlock("dark_basalt_stairs",
+            () -> new StairBlock(ModBlocks.DARK_BASALT.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    public static final DeferredBlock<SlabBlock> DARK_BASALT_SLAB = registerBlock("dark_basalt_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    // Blackstone
+    public static final DeferredBlock<Block> COBBLED_BLACKSTONE = registerBlock("cobbled_basalt",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE)));
+    public static final DeferredBlock<StairBlock> COBBLED_BLACKSTONE_STAIRS = registerBlock("cobbled_basalt_stairs",
+            () -> new StairBlock(ModBlocks.COBBLED_BLACKSTONE.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE)));
+    public static final DeferredBlock<SlabBlock> COBBLED_BLACKSTONE_SLAB = registerBlock("cobbled_basalt_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE)));
+    public static final DeferredBlock<WallBlock> COBBLED_BLACKSTONE_WALL = registerBlock("cobbled_basalt_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE)));
+    public static final DeferredBlock<Block> SMOOTH_BLACKSTONE = registerBlock("smooth_basalt",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE)));
+    public static final DeferredBlock<StairBlock> SMOOTH_BLACKSTONE_STAIRS = registerBlock("smooth_basalt_stairs",
+            () -> new StairBlock(ModBlocks.SMOOTH_BLACKSTONE.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE)));
+    public static final DeferredBlock<SlabBlock> SMOOTH_BLACKSTONE_SLAB = registerBlock("smooth_basalt_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE)));
+    public static final DeferredBlock<Block> CUT_BLACKSTONE = registerBlock("cut_basalt",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE)));
+    public static final DeferredBlock<SlabBlock> CUT_BLACKSTONE_SLAB = registerBlock("cut_basalt_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE)));
+    public static final DeferredBlock<RotatedPillarBlock> BLACKSTONE_PILLAR = registerBlock("sandstone_pillar",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE)));
+    public static final DeferredBlock<Block> BLACKSTONE_TILES = registerBlock("blackstone_tiles",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE)));
+    public static final DeferredBlock<Block> DARK_BLACKSTONE = registerBlock("dark_blackstone",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE)));
+    public static final DeferredBlock<StairBlock> DARK_BLACKSTONE_STAIRS = registerBlock("dark_blackstone_stairs",
+            () -> new StairBlock(ModBlocks.DARK_BLACKSTONE.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE)));
+    public static final DeferredBlock<SlabBlock> DARK_BLACKSTONE_SLAB = registerBlock("dark_blackstone_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BLACKSTONE)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
