@@ -4,8 +4,6 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
-import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -30,12 +28,12 @@ public class ModBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE)));
     public static final DeferredBlock<WallBlock> COBBLED_SMOOTHSTONE_WALL = registerBlock("cobbled_smoothstone_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE)));
-    public static final DeferredBlock<Block> SMOOTH_SMOOTHSTONE = registerBlock("smooth_smoothstone",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE)));
-    public static final DeferredBlock<StairBlock> SMOOTH_SMOOTHSTONE_STAIRS = registerBlock("smooth_smoothstone_stairs",
-            () -> new StairBlock(ModBlocks.SMOOTH_SMOOTHSTONE.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE)));
-    public static final DeferredBlock<SlabBlock> SMOOTH_SMOOTHSTONE_SLAB = registerBlock("smooth_smoothstone_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE)));
+//    public static final DeferredBlock<Block> SMOOTH_SMOOTHSTONE = registerBlock("smooth_smoothstone",
+//            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE)));
+//    public static final DeferredBlock<StairBlock> SMOOTH_SMOOTHSTONE_STAIRS = registerBlock("smooth_smoothstone_stairs",
+//            () -> new StairBlock(ModBlocks.SMOOTH_SMOOTHSTONE.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE)));
+//    public static final DeferredBlock<SlabBlock> SMOOTH_SMOOTHSTONE_SLAB = registerBlock("smooth_smoothstone_slab",
+//            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE)));
     public static final DeferredBlock<Block> POLISHED_SMOOTHSTONE = registerBlock("polished_smoothstone",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE)));
     public static final DeferredBlock<StairBlock> POLISHED_SMOOTHSTONE_STAIRS = registerBlock("polished_smoothstone_stairs",
@@ -73,12 +71,12 @@ public class ModBlocks {
     // Stone
     public static final DeferredBlock<WallBlock> STONE_WALL = registerBlock("stone_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)));
-    public static final DeferredBlock<Block> SMOOTH_STONE = registerBlock("smooth_stone",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)));
-    public static final DeferredBlock<StairBlock> SMOOTH_STONE_STAIRS = registerBlock("smooth_stone_stairs",
-            () -> new StairBlock(ModBlocks.SMOOTH_STONE.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)));
-    public static final DeferredBlock<SlabBlock> SMOOTH_STONE_SLAB = registerBlock("smooth_stone_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)));
+    // public static final DeferredBlock<Block> SMOOTH_STONE = registerBlock("smooth_stone",
+    //         () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)));
+    // public static final DeferredBlock<StairBlock> SMOOTH_STONE_STAIRS = registerBlock("smooth_stone_stairs",
+    //         () -> new StairBlock(ModBlocks.SMOOTH_STONE.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)));
+    // public static final DeferredBlock<SlabBlock> SMOOTH_STONE_SLAB = registerBlock("smooth_stone_slab",
+    //         () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)));
     public static final DeferredBlock<Block> POLISHED_STONE = registerBlock("polished_stone",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)));
     public static final DeferredBlock<StairBlock> POLISHED_STONE_STAIRS = registerBlock("polished_stone_stairs",

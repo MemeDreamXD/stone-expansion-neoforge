@@ -59,9 +59,9 @@ public class StoneExpansion
             event.accept(ModBlocks.COBBLED_SMOOTHSTONE_STAIRS);
             event.accept(ModBlocks.COBBLED_SMOOTHSTONE_SLAB);
             event.accept(ModBlocks.COBBLED_SMOOTHSTONE_WALL);
-            event.accept(ModBlocks.SMOOTH_SMOOTHSTONE);
-            event.accept(ModBlocks.SMOOTH_SMOOTHSTONE_STAIRS);
-            event.accept(ModBlocks.SMOOTH_SMOOTHSTONE_SLAB);
+//            event.accept(ModBlocks.SMOOTH_SMOOTHSTONE);
+//            event.accept(ModBlocks.SMOOTH_SMOOTHSTONE_STAIRS);
+//            event.accept(ModBlocks.SMOOTH_SMOOTHSTONE_SLAB);
             event.accept(ModBlocks.POLISHED_SMOOTHSTONE);
             event.accept(ModBlocks.POLISHED_SMOOTHSTONE_STAIRS);
             event.accept(ModBlocks.POLISHED_SMOOTHSTONE_SLAB);
@@ -81,9 +81,9 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_SMOOTHSTONE_SLAB);
             // Stone
             event.accept(ModBlocks.STONE_WALL);
-            event.accept(ModBlocks.SMOOTH_STONE);
-            event.accept(ModBlocks.SMOOTH_STONE_STAIRS);
-            event.accept(ModBlocks.SMOOTH_STONE_SLAB);
+            //event.accept(ModBlocks.SMOOTH_STONE);
+            //event.accept(ModBlocks.SMOOTH_STONE_STAIRS);
+            //event.accept(ModBlocks.SMOOTH_STONE_SLAB);
             event.accept(ModBlocks.POLISHED_STONE);
             event.accept(ModBlocks.POLISHED_STONE_STAIRS);
             event.accept(ModBlocks.POLISHED_STONE_SLAB);
