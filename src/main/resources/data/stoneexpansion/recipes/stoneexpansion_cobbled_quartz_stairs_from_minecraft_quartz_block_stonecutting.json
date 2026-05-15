@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:quartz_block"
-  },
-  "result": "stoneexpansion:cobbled_quartz_stairs"
-}

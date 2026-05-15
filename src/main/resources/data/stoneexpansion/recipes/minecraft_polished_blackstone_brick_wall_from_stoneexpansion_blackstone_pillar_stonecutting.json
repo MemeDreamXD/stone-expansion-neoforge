@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "stoneexpansion:blackstone_pillar"
-  },
-  "result": "minecraft:polished_blackstone_brick_wall"
-}

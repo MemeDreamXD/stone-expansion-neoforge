@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "stoneexpansion:cracked_quartz_bricks"
-  },
-  "result": "stoneexpansion:polished_quartz_wall"
-}

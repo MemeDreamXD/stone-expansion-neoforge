@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "stoneexpansion:smooth_granite"
-  },
-  "result": "stoneexpansion:cracked_granite_brick_slab"
-}

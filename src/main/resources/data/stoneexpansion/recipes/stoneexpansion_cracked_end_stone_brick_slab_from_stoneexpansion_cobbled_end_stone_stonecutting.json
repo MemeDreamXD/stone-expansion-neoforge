@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "stoneexpansion:cobbled_end_stone"
-  },
-  "result": "stoneexpansion:cracked_end_stone_brick_slab"
-}

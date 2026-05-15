@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/stairs",
   "textures": {
-    "bottom": "stoneexpansion:block/polished_bricks",
-    "side": "stoneexpansion:block/polished_bricks",
-    "top": "stoneexpansion:block/polished_bricks"
+    "bottom": "stoneexpansion:block/polished_brick",
+    "side": "stoneexpansion:block/polished_brick",
+    "top": "stoneexpansion:block/polished_brick"
   }
 }

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "stoneexpansion:smooth_purpur"
-  },
-  "result": "minecraft:purpur_block"
-}

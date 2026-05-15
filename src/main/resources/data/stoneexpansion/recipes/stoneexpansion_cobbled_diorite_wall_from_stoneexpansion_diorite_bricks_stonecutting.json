@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "stoneexpansion:diorite_bricks"
-  },
-  "result": "stoneexpansion:cobbled_diorite_wall"
-}

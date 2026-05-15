@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "stoneexpansion:mossy_stone_pillar"
-  },
-  "result": "stoneexpansion:cracked_mossy_stone_brick_slab"
-}

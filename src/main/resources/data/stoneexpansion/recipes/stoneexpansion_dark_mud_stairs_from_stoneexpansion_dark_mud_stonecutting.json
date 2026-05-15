@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "stoneexpansion:dark_mud"
-  },
-  "result": "stoneexpansion:dark_mud_stairs"
-}

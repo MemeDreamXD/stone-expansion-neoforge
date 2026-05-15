@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "stoneexpansion:chiseled_bricks"
-  },
-  "result": "stoneexpansion:brick_tile_wall"
-}

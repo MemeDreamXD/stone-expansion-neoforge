@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "stoneexpansion:purpur_tiles"
-  },
-  "result": "stoneexpansion:purpur_bricks"
-}

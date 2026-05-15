@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "stoneexpansion:red_sandstone_pillar"
-  },
-  "result": "stoneexpansion:red_sandstone_tile_stairs"
-}

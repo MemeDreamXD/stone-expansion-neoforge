@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "stoneexpansion:polished_red_sandstone"
-  },
-  "result": "stoneexpansion:red_sandstone_tile_slab"
-}

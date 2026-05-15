@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "stoneexpansion:cut_smoothstone"
-  },
-  "result": "stoneexpansion:smoothstone_tile_wall"
-}

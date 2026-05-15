@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "stoneexpansion:chiseled_prismarine"
-  },
-  "result": "stoneexpansion:cut_prismarine_slab"
-}

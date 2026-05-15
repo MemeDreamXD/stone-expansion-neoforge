@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "stoneexpansion:smoothstone_pillar"
-  },
-  "result": "stoneexpansion:smoothstone_tile_stairs"
-}

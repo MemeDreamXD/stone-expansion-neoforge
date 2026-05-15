@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "stoneexpansion:cobbled_smoothstone"
-  },
-  "result": "stoneexpansion:smooth_smoothstone_slab"
-}

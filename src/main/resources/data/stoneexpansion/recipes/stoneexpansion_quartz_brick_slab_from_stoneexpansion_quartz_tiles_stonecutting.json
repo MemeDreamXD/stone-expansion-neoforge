@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "stoneexpansion:quartz_tiles"
-  },
-  "result": "stoneexpansion:quartz_brick_slab"
-}

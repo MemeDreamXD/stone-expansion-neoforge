@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "stoneexpansion:dark_diorite"
-  },
-  "result": "stoneexpansion:dark_diorite_wall"
-}

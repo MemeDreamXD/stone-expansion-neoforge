@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "stoneexpansion:cracked_diorite_bricks"
-  },
-  "result": "stoneexpansion:chiseled_diorite"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "stoneexpansion:polished_prismarine"
-  },
-  "result": "stoneexpansion:prismarine_tiles"
-}

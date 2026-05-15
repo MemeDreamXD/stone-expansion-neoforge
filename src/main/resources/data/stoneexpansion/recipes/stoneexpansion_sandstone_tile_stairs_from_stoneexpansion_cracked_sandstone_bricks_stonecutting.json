@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "stoneexpansion:cracked_sandstone_bricks"
-  },
-  "result": "stoneexpansion:sandstone_tile_stairs"
-}

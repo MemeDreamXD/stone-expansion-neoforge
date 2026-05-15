@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "stoneexpansion:polished_end_stone"
-  },
-  "result": "stoneexpansion:smooth_end_stone"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "stoneexpansion:cut_basalt"
-  },
-  "result": "stoneexpansion:basalt_tile_stairs"
-}

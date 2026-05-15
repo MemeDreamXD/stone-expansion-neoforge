@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "stoneexpansion:granite_tiles"
-  },
-  "result": "stoneexpansion:granite_tile_wall"
-}

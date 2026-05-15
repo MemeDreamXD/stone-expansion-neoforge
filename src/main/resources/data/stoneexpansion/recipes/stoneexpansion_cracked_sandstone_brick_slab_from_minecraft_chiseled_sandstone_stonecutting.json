@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "minecraft:chiseled_sandstone"
-  },
-  "result": "stoneexpansion:cracked_sandstone_brick_slab"
-}

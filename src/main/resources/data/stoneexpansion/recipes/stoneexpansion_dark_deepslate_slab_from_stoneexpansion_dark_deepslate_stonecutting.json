@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "stoneexpansion:dark_deepslate"
-  },
-  "result": "stoneexpansion:dark_deepslate_slab"
-}

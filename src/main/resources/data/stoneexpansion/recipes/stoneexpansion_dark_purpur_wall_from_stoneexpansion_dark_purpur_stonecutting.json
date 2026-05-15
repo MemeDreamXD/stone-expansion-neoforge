@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "stoneexpansion:dark_purpur"
-  },
-  "result": "stoneexpansion:dark_purpur_wall"
-}

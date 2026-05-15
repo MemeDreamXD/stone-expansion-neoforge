@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "stoneexpansion:cobbled_diorite"
-  },
-  "result": "stoneexpansion:smooth_diorite_slab"
-}

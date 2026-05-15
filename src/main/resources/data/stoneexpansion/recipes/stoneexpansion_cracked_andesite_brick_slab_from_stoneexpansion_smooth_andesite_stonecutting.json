@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "stoneexpansion:smooth_andesite"
-  },
-  "result": "stoneexpansion:cracked_andesite_brick_slab"
-}

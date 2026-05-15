@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "stoneexpansion:mud_tiles"
-  },
-  "result": "stoneexpansion:smooth_mud_slab"
-}

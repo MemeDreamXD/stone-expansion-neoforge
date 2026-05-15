@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "stoneexpansion:red_sandstone_pillar"
-  },
-  "result": "stoneexpansion:cobbled_red_sandstone_slab"
-}

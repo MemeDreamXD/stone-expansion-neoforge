@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "stoneexpansion:dark_sandstone"
-  },
-  "result": "stoneexpansion:dark_sandstone_stairs"
-}

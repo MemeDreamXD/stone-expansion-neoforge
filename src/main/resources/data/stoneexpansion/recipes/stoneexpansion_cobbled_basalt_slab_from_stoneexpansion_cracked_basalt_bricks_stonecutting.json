@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "stoneexpansion:cracked_basalt_bricks"
-  },
-  "result": "stoneexpansion:cobbled_basalt_slab"
-}

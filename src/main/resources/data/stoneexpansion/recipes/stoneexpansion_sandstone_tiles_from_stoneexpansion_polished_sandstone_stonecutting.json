@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "stoneexpansion:polished_sandstone"
-  },
-  "result": "stoneexpansion:sandstone_tiles"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "stoneexpansion:dark_smoothstone"
-  },
-  "result": "stoneexpansion:dark_smoothstone_slab"
-}
