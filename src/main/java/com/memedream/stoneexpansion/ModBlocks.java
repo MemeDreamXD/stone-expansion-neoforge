@@ -586,8 +586,8 @@ public class ModBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
     public static final DeferredBlock<WallBlock> POLISHED_BASALT_WALL = registerBlock("polished_basalt_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
-    public static final DeferredBlock<Block> CHISELED_BASALT_BRICKS = registerBlock("chiseled_basalt_bricks",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
+    public static final DeferredBlock<RotatedPillarBlock> CHISELED_BASALT_BRICKS = registerBlock("chiseled_basalt_bricks",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
     public static final DeferredBlock<Block> CUT_BASALT = registerBlock("cut_basalt",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BASALT)));
     public static final DeferredBlock<SlabBlock> CUT_BASALT_SLAB = registerBlock("cut_basalt_slab",
@@ -705,11 +705,11 @@ public class ModBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.PURPUR_BLOCK)));
     public static final DeferredBlock<Block> POLISHED_PURPUR = registerBlock("polished_purpur",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.PURPUR_BLOCK)));
-    public static final DeferredBlock<StairBlock> POLISHED_PURPUR_STAIRS = registerBlock("polished_stairs",
+    public static final DeferredBlock<StairBlock> POLISHED_PURPUR_STAIRS = registerBlock("polished_purpur_stairs",
             () -> new StairBlock(ModBlocks.POLISHED_PURPUR.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.PURPUR_BLOCK)));
-    public static final DeferredBlock<SlabBlock> POLISHED_PURPUR_SLAB = registerBlock("polished_slab",
+    public static final DeferredBlock<SlabBlock> POLISHED_PURPUR_SLAB = registerBlock("polished_purpur_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.PURPUR_BLOCK)));
-    public static final DeferredBlock<WallBlock> POLISHED_PURPUR_WALL = registerBlock("polished_wall",
+    public static final DeferredBlock<WallBlock> POLISHED_PURPUR_WALL = registerBlock("polished_purpur_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.PURPUR_BLOCK)));
     public static final DeferredBlock<Block> CHISELED_PURPUR_BRICKS = registerBlock("chiseled_purpur_bricks",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.PURPUR_BLOCK)));

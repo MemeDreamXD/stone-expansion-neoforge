@@ -4,7 +4,7 @@
       "model": "stoneexpansion:block/smooth_nether_brick_slab"
     },
     "type=double": {
-      "model": "stoneexpansion:block/smooth_nether_bricks"
+      "model": "stoneexpansion:block/smooth_nether_brick"
     },
     "type=top": {
       "model": "stoneexpansion:block/smooth_nether_brick_slab_top"
