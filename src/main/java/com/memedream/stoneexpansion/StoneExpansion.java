@@ -53,32 +53,32 @@ public class StoneExpansion
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             // Smooth Stone
-            event.accept(ModBlocks.SMOOTHSTONE_STAIRS);
-            event.accept(ModBlocks.SMOOTHSTONE_WALL);
-            event.accept(ModBlocks.COBBLED_SMOOTHSTONE);
-            event.accept(ModBlocks.COBBLED_SMOOTHSTONE_STAIRS);
-            event.accept(ModBlocks.COBBLED_SMOOTHSTONE_SLAB);
-            event.accept(ModBlocks.COBBLED_SMOOTHSTONE_WALL);
-//            event.accept(ModBlocks.SMOOTH_SMOOTHSTONE);
-//            event.accept(ModBlocks.SMOOTH_SMOOTHSTONE_STAIRS);
-//            event.accept(ModBlocks.SMOOTH_SMOOTHSTONE_SLAB);
-            event.accept(ModBlocks.POLISHED_SMOOTHSTONE);
-            event.accept(ModBlocks.POLISHED_SMOOTHSTONE_STAIRS);
-            event.accept(ModBlocks.POLISHED_SMOOTHSTONE_SLAB);
-            event.accept(ModBlocks.POLISHED_SMOOTHSTONE_WALL);
-            event.accept(ModBlocks.CHISELED_SMOOTHSTONE_BRICKS);
-            event.accept(ModBlocks.CUT_SMOOTHSTONE);
-            event.accept(ModBlocks.CUT_SMOOTHSTONE_SLAB);
-            event.accept(ModBlocks.SMOOTHSTONE_BRICKS);
-            event.accept(ModBlocks.SMOOTHSTONE_BRICK_STAIRS);
-            event.accept(ModBlocks.SMOOTHSTONE_BRICK_SLAB);
-            event.accept(ModBlocks.SMOOTHSTONE_BRICK_WALL);
-            event.accept(ModBlocks.CRACKED_SMOOTHSTONE_BRICKS);
-            event.accept(ModBlocks.SMOOTHSTONE_PILLAR);
-            event.accept(ModBlocks.SMOOTHSTONE_TILES);
-            event.accept(ModBlocks.DARK_SMOOTHSTONE);
-            event.accept(ModBlocks.DARK_SMOOTHSTONE_STAIRS);
-            event.accept(ModBlocks.DARK_SMOOTHSTONE_SLAB);
+            event.accept(ModBlocks.SMOOTH_STONE_STAIRS);
+            event.accept(ModBlocks.SMOOTH_STONE_WALL);
+            event.accept(ModBlocks.COBBLED_SMOOTH_STONE);
+            event.accept(ModBlocks.COBBLED_SMOOTH_STONE_STAIRS);
+            event.accept(ModBlocks.COBBLED_SMOOTH_STONE_SLAB);
+            event.accept(ModBlocks.COBBLED_SMOOTH_STONE_WALL);
+//            event.accept(ModBlocks.SMOOTH_SMOOTH_STONE);
+//            event.accept(ModBlocks.SMOOTH_SMOOTH_STONE_STAIRS);
+//            event.accept(ModBlocks.SMOOTH_SMOOTH_STONE_SLAB);
+            event.accept(ModBlocks.POLISHED_SMOOTH_STONE);
+            event.accept(ModBlocks.POLISHED_SMOOTH_STONE_STAIRS);
+            event.accept(ModBlocks.POLISHED_SMOOTH_STONE_SLAB);
+            event.accept(ModBlocks.POLISHED_SMOOTH_STONE_WALL);
+            event.accept(ModBlocks.CHISELED_SMOOTH_STONE_BRICKS);
+            event.accept(ModBlocks.CUT_SMOOTH_STONE);
+            event.accept(ModBlocks.CUT_SMOOTH_STONE_SLAB);
+            event.accept(ModBlocks.SMOOTH_STONE_BRICKS);
+            event.accept(ModBlocks.SMOOTH_STONE_BRICK_STAIRS);
+            event.accept(ModBlocks.SMOOTH_STONE_BRICK_SLAB);
+            event.accept(ModBlocks.SMOOTH_STONE_BRICK_WALL);
+            event.accept(ModBlocks.CRACKED_SMOOTH_STONE_BRICKS);
+            event.accept(ModBlocks.SMOOTH_STONE_PILLAR);
+            event.accept(ModBlocks.SMOOTH_STONE_TILES);
+            event.accept(ModBlocks.DARK_SMOOTH_STONE);
+            event.accept(ModBlocks.DARK_SMOOTH_STONE_STAIRS);
+            event.accept(ModBlocks.DARK_SMOOTH_STONE_SLAB);
             // Stone
             event.accept(ModBlocks.STONE_WALL);
             //event.accept(ModBlocks.SMOOTH_STONE);

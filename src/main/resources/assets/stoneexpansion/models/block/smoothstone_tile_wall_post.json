@@ -1,8 +1,0 @@
-{
-  "parent": "stoneexpansion:block/template_pillar_wall_post",
-  "textures": {
-    "bottom": "stoneexpansion:block/smoothstone_tiles",
-    "top": "stoneexpansion:block/smoothstone_tiles",
-    "wall": "stoneexpansion:block/smoothstone_tiles"
-  }
-}

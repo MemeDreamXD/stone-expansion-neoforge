@@ -1,8 +1,0 @@
-{
-  "parent": "stoneexpansion:block/pillar_wall_inventory",
-  "textures": {
-    "bottom": "stoneexpansion:block/dark_smoothstone",
-    "top": "stoneexpansion:block/dark_smoothstone",
-    "wall": "stoneexpansion:block/dark_smoothstone"
-  }
-}
