@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "stoneexpansion:basalt_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "stoneexpansion:cracked_basalt_bricks"
+  }
+}

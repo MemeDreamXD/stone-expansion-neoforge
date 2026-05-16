@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stoneexpansion:basalt_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stoneexpansion:basalt_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "stoneexpansion:cracked_basalt_bricks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_stoneexpansion:basalt_bricks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "stoneexpansion:cracked_basalt_bricks"
+    ]
+  }
+}
