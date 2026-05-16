@@ -12,6 +12,7 @@ import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
+import net.neoforged.neoforge.registries.DeferredBlock;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.function.Supplier;
@@ -81,9 +82,46 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         // Quartz Cooking
         smeltingRecipe(Blocks.QUARTZ_BLOCK, ModBlocks.COBBLED_QUARTZ, 0.1F, 1).save(recipeOutput);
         smeltingRecipe(ModBlocks.CRACKED_QUARTZ_BRICKS, ModBlocks.QUARTZ_BRICKS, 0.1F, 1).save(recipeOutput);
-    }
 
-    public ShapedRecipeBuilder makePolished(Supplier<? extends Block> bricksOut, Supplier<? extends Block> blockIn) {
+        //Polished Blocks
+        makePolishedVanilla(ModBlocks.POLISHED_SMOOTH_STONE, Blocks.SMOOTH_STONE).save(recipeOutput);
+        makePolishedVanilla(ModBlocks.POLISHED_STONE, Blocks.STONE).save(recipeOutput);
+        makePolishedModded(ModBlocks.POLISHED_MOSSY_STONE, ModBlocks.MOSSY_STONE).save(recipeOutput);
+        makePolishedVanilla(ModBlocks.POLISHED_BRICK, Blocks.BRICKS).save(recipeOutput);
+        makePolishedVanilla(ModBlocks.POLISHED_MUD, Blocks.PACKED_MUD).save(recipeOutput);
+        makePolishedVanilla(ModBlocks.POLISHED_SANDSTONE, Blocks.SANDSTONE).save(recipeOutput);
+        makePolishedVanilla(ModBlocks.POLISHED_RED_SANDSTONE, Blocks.RED_SANDSTONE).save(recipeOutput);
+        makePolishedVanilla(ModBlocks.POLISHED_PRISMARINE, Blocks.PRISMARINE).save(recipeOutput);
+        makePolishedVanilla(ModBlocks.POLISHED_NETHER_BRICK, Blocks.NETHER_BRICKS).save(recipeOutput);
+        makePolishedVanilla(ModBlocks.POLISHED_RED_NETHER_BRICK, Blocks.RED_NETHER_BRICKS).save(recipeOutput);
+        makePolishedVanilla(ModBlocks.POLISHED_END_STONE, Blocks.END_STONE).save(recipeOutput);
+        makePolishedVanilla(ModBlocks.POLISHED_PURPUR, Blocks.PURPUR_BLOCK).save(recipeOutput);
+        makePolishedVanilla(ModBlocks.POLISHED_QUARTZ, Blocks.QUARTZ_BLOCK).save(recipeOutput);
+        //Chiseled Blocks
+        makeChiseledModded(ModBlocks.CHISELED_SMOOTH_STONE_BRICKS, ModBlocks.SMOOTH_STONE_BRICK_SLAB).save(recipeOutput);
+        makeChiseledModded(ModBlocks.CHISELED_GRANITE_BRICKS, ModBlocks.GRANITE_BRICK_SLAB).save(recipeOutput);
+        makeChiseledModded(ModBlocks.CHISELED_DIORITE_BRICKS, ModBlocks.ANDESITE_BRICK_SLAB).save(recipeOutput);
+        makeChiseledVanilla(ModBlocks.CHISELED_BRICKS, Blocks.BRICK_SLAB).save(recipeOutput);
+        makeChiseledVanilla(ModBlocks.CHISELED_MUD_BRICKS, Blocks.MUD_BRICK_SLAB).save(recipeOutput);
+        makeChiseledVanilla(ModBlocks.CHISELED_PRISMARINE_BRICKS, Blocks.PRISMARINE_BRICK_SLAB).save(recipeOutput);
+        makeChiseledVanilla(ModBlocks.CHISELED_RED_NETHER_BRICKS, Blocks.RED_NETHER_BRICK_SLAB).save(recipeOutput);
+        makeChiseledModded(ModBlocks.CHISELED_BASALT_BRICKS, ModBlocks.BASALT_BRICK_SLAB).save(recipeOutput);
+        makeChiseledVanilla(ModBlocks.CHISELED_END_STONE_BRICKS, Blocks.END_STONE_BRICK_SLAB).save(recipeOutput);
+        makeChiseledModded(ModBlocks.CHISELED_PURPUR_BRICKS, ModBlocks.PURPUR_BRICK_SLAB).save(recipeOutput);
+
+
+
+
+    }
+    public ShapedRecipeBuilder makePolishedVanilla(Supplier<? extends Block> bricksOut, Block blockIn) {
+        return ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, bricksOut.get(), 4)
+                .pattern(" B ")
+                .pattern("B B")
+                .pattern(" B ")
+                .define('B', blockIn)
+                .unlockedBy("has_" + BuiltInRegistries.BLOCK.getKey(blockIn).getPath(), has(blockIn));
+    }
+    public ShapedRecipeBuilder makePolishedModded(Supplier<? extends Block> bricksOut, DeferredBlock<Block> blockIn) {
         return ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, bricksOut.get(), 4)
                 .pattern(" B ")
                 .pattern("B B")
@@ -91,12 +129,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B', blockIn.get())
                 .unlockedBy("has_" + BuiltInRegistries.BLOCK.getKey(blockIn.get()).getPath(), has(blockIn.get()));
     }
-    public ShapedRecipeBuilder makeChiseled(Supplier<? extends Block> bricksOut, Supplier<? extends Block> blockIn) {
+    public ShapedRecipeBuilder makeChiseledModded(Supplier<? extends Block> bricksOut, Supplier<? extends Block> blockIn) {
         return ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, bricksOut.get(), 1)
                 .pattern("B")
                 .pattern("B")
                 .define('B', blockIn.get())
                 .unlockedBy("has_" + BuiltInRegistries.BLOCK.getKey(blockIn.get()).getPath(), has(blockIn.get()));
+    }
+    public ShapedRecipeBuilder makeChiseledVanilla(Supplier<? extends Block> bricksOut, Block blockIn) {
+        return ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, bricksOut.get(), 1)
+                .pattern("S")
+                .pattern("S")
+                .define('S', blockIn)
+                .unlockedBy("has_" + BuiltInRegistries.BLOCK.getKey(blockIn).getPath(), has(blockIn));
     }
     public ShapedRecipeBuilder makeCut(Supplier<? extends Block> bricksOut, Supplier<? extends Block> blockIn) {
         return ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, bricksOut.get(), 1)

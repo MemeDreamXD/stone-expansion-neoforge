@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "stoneexpansion:basalt_brick_slab"
+    }
+  },
+  "pattern": [
+    "B",
+    "B"
+  ],
+  "result": {
+    "count": 1,
+    "id": "stoneexpansion:chiseled_basalt_bricks"
+  }
+}
