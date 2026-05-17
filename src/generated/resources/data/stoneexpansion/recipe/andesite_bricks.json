@@ -3,15 +3,15 @@
   "category": "building",
   "key": {
     "B": {
-      "item": "stoneexpansion:diorite_brick_slab"
+      "item": "minecraft:andesite"
     }
   },
   "pattern": [
-    "B",
-    "B"
+    "BB",
+    "BB"
   ],
   "result": {
-    "count": 1,
-    "id": "stoneexpansion:chiseled_diorite_bricks"
+    "count": 4,
+    "id": "stoneexpansion:andesite_bricks"
   }
 }

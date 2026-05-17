@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "B": {
-      "item": "stoneexpansion:diorite_brick_slab"
+      "item": "minecraft:diorite"
     }
   },
   "pattern": [
@@ -11,7 +11,7 @@
     "B"
   ],
   "result": {
-    "count": 1,
-    "id": "stoneexpansion:chiseled_diorite_bricks"
+    "count": 2,
+    "id": "stoneexpansion:diorite_pillar"
   }
 }
