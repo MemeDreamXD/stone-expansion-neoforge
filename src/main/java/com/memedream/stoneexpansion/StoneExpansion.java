@@ -308,7 +308,7 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_NETHER_BRICKS);
             event.accept(ModBlocks.DARK_NETHER_BRICK_STAIRS);
             event.accept(ModBlocks.DARK_NETHER_BRICK_SLAB);
-            // Nether Brick
+            // Red Nether Brick
             event.accept(ModBlocks.COBBLED_RED_NETHER_BRICKS);
             event.accept(ModBlocks.COBBLED_RED_NETHER_BRICK_STAIRS);
             event.accept(ModBlocks.COBBLED_RED_NETHER_BRICK_SLAB);
@@ -440,7 +440,6 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_QUARTZ);
             event.accept(ModBlocks.DARK_QUARTZ_STAIRS);
             event.accept(ModBlocks.DARK_QUARTZ_SLAB);
-
             // Dripstone
         }
 

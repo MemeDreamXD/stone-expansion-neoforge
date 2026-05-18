@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "stoneexpansion:dark_granite"
+    }
+  },
+  "pattern": [
+    "BB "
+  ],
+  "result": {
+    "count": 4,
+    "id": "stoneexpansion:dark_granite_slab"
+  }
+}

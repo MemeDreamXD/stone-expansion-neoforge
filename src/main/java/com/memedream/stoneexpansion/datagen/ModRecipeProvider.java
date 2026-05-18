@@ -192,8 +192,269 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         makeDarkVanilla(ModBlocks.DARK_END_STONE, Blocks.END_STONE).save(recipeOutput);
         makeDarkVanilla(ModBlocks.DARK_PURPUR, Blocks.PURPUR_BLOCK).save(recipeOutput);
         makeDarkVanilla(ModBlocks.DARK_QUARTZ, Blocks.QUARTZ_BLOCK).save(recipeOutput);
-    }
+        //Stairs
+        makeStairsVanilla(ModBlocks.SMOOTH_STONE_STAIRS, Blocks.SMOOTH_STONE).save(recipeOutput);
+        makeStairsModded(ModBlocks.COBBLED_SMOOTH_STONE_STAIRS, ModBlocks.COBBLED_SMOOTH_STONE).save(recipeOutput);
+        makeStairsModded(ModBlocks.POLISHED_SMOOTH_STONE_STAIRS, ModBlocks.POLISHED_SMOOTH_STONE).save(recipeOutput);
+        makeStairsModded(ModBlocks.SMOOTH_STONE_BRICK_STAIRS, ModBlocks.SMOOTH_STONE_BRICKS).save(recipeOutput);
+        makeStairsModded(ModBlocks.DARK_SMOOTH_STONE_STAIRS, ModBlocks.DARK_SMOOTH_STONE).save(recipeOutput);
+        makeStairsModded(ModBlocks.POLISHED_STONE_STAIRS, ModBlocks.POLISHED_STONE).save(recipeOutput);
+        makeStairsModded(ModBlocks.DARK_STONE_STAIRS, ModBlocks.DARK_STONE).save(recipeOutput);
+        makeStairsModded(ModBlocks.MOSSY_STONE_STAIRS, ModBlocks.MOSSY_STONE).save(recipeOutput);
+        makeStairsModded(ModBlocks.SMOOTH_MOSSY_STONE_STAIRS, ModBlocks.SMOOTH_MOSSY_STONE).save(recipeOutput);
+        makeStairsModded(ModBlocks.POLISHED_MOSSY_STONE_STAIRS, ModBlocks.POLISHED_MOSSY_STONE).save(recipeOutput);
+        makeStairsModded(ModBlocks.DARK_MOSSY_STONE_STAIRS, ModBlocks.DARK_MOSSY_STONE).save(recipeOutput);
+        makeStairsModded(ModBlocks.COBBLED_GRANITE_STAIRS, ModBlocks.COBBLED_GRANITE).save(recipeOutput);
+        makeStairsModded(ModBlocks.SMOOTH_GRANITE_STAIRS, ModBlocks.SMOOTH_GRANITE).save(recipeOutput);
+        makeStairsModded(ModBlocks.GRANITE_BRICK_STAIRS, ModBlocks.GRANITE_BRICKS).save(recipeOutput);
+        makeStairsModded(ModBlocks.DARK_GRANITE_STAIRS, ModBlocks.DARK_GRANITE).save(recipeOutput);
+        makeStairsModded(ModBlocks.COBBLED_DIORITE_STAIRS, ModBlocks.COBBLED_DIORITE).save(recipeOutput);
+        makeStairsModded(ModBlocks.SMOOTH_DIORITE_STAIRS, ModBlocks.SMOOTH_DIORITE).save(recipeOutput);
+        makeStairsModded(ModBlocks.DIORITE_BRICK_STAIRS, ModBlocks.DIORITE_BRICKS).save(recipeOutput);
+        makeStairsModded(ModBlocks.DARK_DIORITE_STAIRS, ModBlocks.DARK_DIORITE).save(recipeOutput);
+        makeStairsModded(ModBlocks.COBBLED_ANDESITE_STAIRS, ModBlocks.COBBLED_ANDESITE).save(recipeOutput);
+        makeStairsModded(ModBlocks.SMOOTH_ANDESITE_STAIRS, ModBlocks.SMOOTH_ANDESITE).save(recipeOutput);
+        makeStairsModded(ModBlocks.ANDESITE_BRICK_STAIRS, ModBlocks.ANDESITE_BRICKS).save(recipeOutput);
+        makeStairsModded(ModBlocks.DARK_ANDESITE_STAIRS, ModBlocks.DARK_ANDESITE).save(recipeOutput);
+        makeStairsModded(ModBlocks.COBBLED_BRICK_STAIRS, ModBlocks.COBBLED_BRICKS).save(recipeOutput);
+        makeStairsModded(ModBlocks.SMOOTH_BRICK_STAIRS, ModBlocks.SMOOTH_BRICK).save(recipeOutput);
+        makeStairsModded(ModBlocks.POLISHED_BRICK_STAIRS, ModBlocks.POLISHED_BRICK).save(recipeOutput);
+        makeStairsModded(ModBlocks.DARK_BRICK_STAIRS, ModBlocks.DARK_BRICKS).save(recipeOutput);
+            //TODO: Make packed mud build set
+            //makeStairsVanilla(ModBlocks.MUD_STAIRS, Blocks.PACKED_MUD).save(recipeOutput);
+        makeStairsModded(ModBlocks.COBBLED_MUD_STAIRS, ModBlocks.COBBLED_MUD).save(recipeOutput);
+        makeStairsModded(ModBlocks.SMOOTH_MUD_STAIRS, ModBlocks.SMOOTH_MUD).save(recipeOutput);
+        makeStairsModded(ModBlocks.POLISHED_MUD_STAIRS, ModBlocks.POLISHED_MUD).save(recipeOutput);
+        makeStairsModded(ModBlocks.DARK_MUD_STAIRS, ModBlocks.DARK_MUD).save(recipeOutput);
+        makeStairsModded(ModBlocks.COBBLED_SANDSTONE_STAIRS, ModBlocks.COBBLED_SANDSTONE).save(recipeOutput);
+        makeStairsModded(ModBlocks.POLISHED_SANDSTONE_STAIRS, ModBlocks.POLISHED_SANDSTONE).save(recipeOutput);
+        makeStairsModded(ModBlocks.SANDSTONE_BRICK_STAIRS, ModBlocks.SANDSTONE_BRICKS).save(recipeOutput);
+        makeStairsModded(ModBlocks.DARK_SANDSTONE_STAIRS, ModBlocks.DARK_SANDSTONE).save(recipeOutput);
+        makeStairsModded(ModBlocks.COBBLED_RED_SANDSTONE_STAIRS, ModBlocks.COBBLED_RED_SANDSTONE).save(recipeOutput);
+        makeStairsModded(ModBlocks.POLISHED_RED_SANDSTONE_STAIRS, ModBlocks.POLISHED_RED_SANDSTONE).save(recipeOutput);
+        makeStairsModded(ModBlocks.RED_SANDSTONE_BRICK_STAIRS, ModBlocks.RED_SANDSTONE_BRICKS).save(recipeOutput);
+        makeStairsModded(ModBlocks.DARK_RED_SANDSTONE_STAIRS, ModBlocks.DARK_RED_SANDSTONE).save(recipeOutput);
+        makeStairsModded(ModBlocks.SMOOTH_PRISMARINE_STAIRS, ModBlocks.SMOOTH_PRISMARINE).save(recipeOutput);
+        makeStairsModded(ModBlocks.POLISHED_PRISMARINE_STAIRS, ModBlocks.POLISHED_PRISMARINE).save(recipeOutput);
+        makeStairsModded(ModBlocks.COBBLED_NETHER_BRICK_STAIRS, ModBlocks.COBBLED_NETHER_BRICKS).save(recipeOutput);
+        makeStairsModded(ModBlocks.SMOOTH_NETHER_BRICK_STAIRS, ModBlocks.SMOOTH_NETHER_BRICK).save(recipeOutput);
+        makeStairsModded(ModBlocks.POLISHED_NETHER_BRICK_STAIRS, ModBlocks.POLISHED_NETHER_BRICK).save(recipeOutput);
+        makeStairsModded(ModBlocks.DARK_NETHER_BRICK_STAIRS, ModBlocks.DARK_NETHER_BRICKS).save(recipeOutput);
+        makeStairsModded(ModBlocks.COBBLED_RED_NETHER_BRICK_STAIRS, ModBlocks.COBBLED_RED_NETHER_BRICKS).save(recipeOutput);
+        makeStairsModded(ModBlocks.SMOOTH_RED_NETHER_BRICK_STAIRS, ModBlocks.SMOOTH_RED_NETHER_BRICK).save(recipeOutput);
+        makeStairsModded(ModBlocks.POLISHED_RED_NETHER_BRICK_STAIRS, ModBlocks.POLISHED_RED_NETHER_BRICK).save(recipeOutput);
+        makeStairsModded(ModBlocks.DARK_RED_NETHER_BRICK_STAIRS, ModBlocks.DARK_RED_NETHER_BRICKS).save(recipeOutput);
+        makeStairsVanilla(ModBlocks.BASALT_STAIRS, Blocks.BASALT).save(recipeOutput);
+        makeStairsModded(ModBlocks.COBBLED_BASALT_STAIRS, ModBlocks.COBBLED_BASALT).save(recipeOutput);
+        makeStairsVanilla(ModBlocks.SMOOTH_BASALT_STAIRS, Blocks.SMOOTH_BASALT).save(recipeOutput);
+        makeStairsModded(ModBlocks.POLISHED_BASALT_STAIRS, ModBlocks.POLISHED_BASALT).save(recipeOutput);
+        makeStairsModded(ModBlocks.BASALT_BRICK_STAIRS, ModBlocks.BASALT_BRICKS).save(recipeOutput);
+        makeStairsModded(ModBlocks.DARK_BASALT_STAIRS, ModBlocks.DARK_BASALT).save(recipeOutput);
+        makeStairsModded(ModBlocks.COBBLED_BLACKSTONE_STAIRS, ModBlocks.COBBLED_BLACKSTONE).save(recipeOutput);
+        makeStairsModded(ModBlocks.SMOOTH_BLACKSTONE_STAIRS, ModBlocks.SMOOTH_BLACKSTONE).save(recipeOutput);
+        makeStairsModded(ModBlocks.DARK_BLACKSTONE_STAIRS, ModBlocks.DARK_BLACKSTONE).save(recipeOutput);
+        makeStairsVanilla(ModBlocks.END_STONE_STAIRS, Blocks.END_STONE).save(recipeOutput);
+        makeStairsModded(ModBlocks.COBBLED_END_STONE_STAIRS, ModBlocks.COBBLED_END_STONE).save(recipeOutput);
+        makeStairsModded(ModBlocks.SMOOTH_END_STONE_STAIRS, ModBlocks.SMOOTH_END_STONE).save(recipeOutput);
+        makeStairsModded(ModBlocks.POLISHED_END_STONE_STAIRS, ModBlocks.POLISHED_END_STONE).save(recipeOutput);
+        makeStairsModded(ModBlocks.DARK_END_STONE_STAIRS, ModBlocks.DARK_END_STONE).save(recipeOutput);
+        makeStairsModded(ModBlocks.COBBLED_PURPUR_STAIRS, ModBlocks.COBBLED_PURPUR).save(recipeOutput);
+        makeStairsModded(ModBlocks.SMOOTH_PURPUR_STAIRS, ModBlocks.SMOOTH_PURPUR).save(recipeOutput);
+        makeStairsModded(ModBlocks.POLISHED_PURPUR_STAIRS, ModBlocks.POLISHED_PURPUR).save(recipeOutput);
+        makeStairsModded(ModBlocks.PURPUR_BRICK_STAIRS, ModBlocks.PURPUR_BRICKS).save(recipeOutput);
+        makeStairsModded(ModBlocks.DARK_PURPUR_STAIRS, ModBlocks.DARK_PURPUR).save(recipeOutput);
+        makeStairsModded(ModBlocks.COBBLED_QUARTZ_STAIRS, ModBlocks.COBBLED_QUARTZ).save(recipeOutput);
+        makeStairsModded(ModBlocks.POLISHED_QUARTZ_STAIRS, ModBlocks.POLISHED_QUARTZ).save(recipeOutput);
+        makeStairsModded(ModBlocks.QUARTZ_BRICK_STAIRS, ModBlocks.QUARTZ_BRICKS).save(recipeOutput);
+        makeStairsModded(ModBlocks.DARK_QUARTZ_STAIRS, ModBlocks.DARK_QUARTZ).save(recipeOutput);
+        //Slab
+        makeSlabModded(ModBlocks.COBBLED_SMOOTH_STONE_SLAB, ModBlocks.COBBLED_SMOOTH_STONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.POLISHED_SMOOTH_STONE_SLAB, ModBlocks.POLISHED_SMOOTH_STONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.CUT_SMOOTH_STONE_SLAB, ModBlocks.CUT_SMOOTH_STONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.SMOOTH_STONE_BRICK_SLAB, ModBlocks.SMOOTH_STONE_BRICKS).save(recipeOutput);
+        makeSlabModded(ModBlocks.DARK_SMOOTH_STONE_SLAB, ModBlocks.DARK_SMOOTH_STONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.POLISHED_STONE_SLAB, ModBlocks.POLISHED_STONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.CUT_STONE_SLAB, ModBlocks.CUT_STONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.DARK_STONE_SLAB, ModBlocks.DARK_STONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.MOSSY_STONE_SLAB, ModBlocks.MOSSY_STONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.SMOOTH_MOSSY_STONE_SLAB, ModBlocks.SMOOTH_MOSSY_STONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.POLISHED_MOSSY_STONE_SLAB, ModBlocks.POLISHED_MOSSY_STONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.CUT_MOSSY_STONE_SLAB, ModBlocks.CUT_MOSSY_STONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.COBBLED_GRANITE_SLAB, ModBlocks.COBBLED_GRANITE).save(recipeOutput);
+        makeSlabModded(ModBlocks.SMOOTH_GRANITE_SLAB, ModBlocks.SMOOTH_GRANITE).save(recipeOutput);
+        makeSlabModded(ModBlocks.CUT_GRANITE_SLAB, ModBlocks.CUT_GRANITE).save(recipeOutput);
+        makeSlabModded(ModBlocks.GRANITE_BRICK_SLAB, ModBlocks.GRANITE_BRICKS).save(recipeOutput);
+        makeSlabModded(ModBlocks.DARK_GRANITE_SLAB, ModBlocks.DARK_GRANITE).save(recipeOutput);
+        makeSlabModded(ModBlocks.COBBLED_DIORITE_SLAB, ModBlocks.COBBLED_DIORITE).save(recipeOutput);
+        makeSlabModded(ModBlocks.SMOOTH_DIORITE_SLAB, ModBlocks.SMOOTH_DIORITE).save(recipeOutput);
+        makeSlabModded(ModBlocks.CUT_DIORITE_SLAB, ModBlocks.CUT_DIORITE).save(recipeOutput);
+        makeSlabModded(ModBlocks.DIORITE_BRICK_SLAB, ModBlocks.DIORITE_BRICKS).save(recipeOutput);
+        makeSlabModded(ModBlocks.DARK_DIORITE_SLAB, ModBlocks.DARK_DIORITE).save(recipeOutput);
+        makeSlabModded(ModBlocks.COBBLED_ANDESITE_SLAB, ModBlocks.COBBLED_ANDESITE).save(recipeOutput);
+        makeSlabModded(ModBlocks.SMOOTH_ANDESITE_SLAB, ModBlocks.SMOOTH_ANDESITE).save(recipeOutput);
+        makeSlabModded(ModBlocks.CUT_ANDESITE_SLAB, ModBlocks.CUT_ANDESITE).save(recipeOutput);
+        makeSlabModded(ModBlocks.ANDESITE_BRICK_SLAB, ModBlocks.ANDESITE_BRICKS).save(recipeOutput);
+        makeSlabModded(ModBlocks.DARK_ANDESITE_SLAB, ModBlocks.DARK_ANDESITE).save(recipeOutput);
+        makeSlabVanilla(ModBlocks.DEEPSLATE_SLAB, Blocks.DEEPSLATE).save(recipeOutput);
+        makeSlabModded(ModBlocks.SMOOTH_DEEPSLATE_SLAB, ModBlocks.SMOOTH_DEEPSLATE).save(recipeOutput);
+        makeSlabModded(ModBlocks.CUT_DEEPSLATE_SLAB, ModBlocks.CUT_DEEPSLATE).save(recipeOutput);
+        makeSlabModded(ModBlocks.DARK_DEEPSLATE_SLAB, ModBlocks.DARK_DEEPSLATE).save(recipeOutput);
+        makeSlabModded(ModBlocks.COBBLED_BRICK_SLAB, ModBlocks.COBBLED_BRICKS).save(recipeOutput);
+        makeSlabModded(ModBlocks.SMOOTH_BRICK_SLAB, ModBlocks.SMOOTH_BRICK).save(recipeOutput);
+        makeSlabModded(ModBlocks.POLISHED_BRICK_SLAB, ModBlocks.POLISHED_BRICK).save(recipeOutput);
+        makeSlabModded(ModBlocks.CUT_BRICK_SLAB, ModBlocks.CUT_BRICKS).save(recipeOutput);
+        makeSlabModded(ModBlocks.DARK_BRICK_SLAB, ModBlocks.DARK_BRICKS).save(recipeOutput);
+            //TODO: Make packed mud build set
+            //makeSlabVanilla(ModBlocks.MUD_SLAB, Blocks.PACKED_MUD).save(recipeOutput);
+        makeSlabModded(ModBlocks.COBBLED_MUD_SLAB, ModBlocks.COBBLED_MUD).save(recipeOutput);
+        makeSlabModded(ModBlocks.SMOOTH_MUD_SLAB, ModBlocks.SMOOTH_MUD).save(recipeOutput);
+        makeSlabModded(ModBlocks.POLISHED_MUD_SLAB, ModBlocks.POLISHED_MUD).save(recipeOutput);
+        makeSlabModded(ModBlocks.CUT_MUD_SLAB, ModBlocks.CUT_MUD).save(recipeOutput);
+        makeSlabModded(ModBlocks.DARK_MUD_SLAB, ModBlocks.DARK_MUD).save(recipeOutput);
+        makeSlabModded(ModBlocks.COBBLED_SANDSTONE_SLAB, ModBlocks.COBBLED_SANDSTONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.POLISHED_SANDSTONE_SLAB, ModBlocks.POLISHED_SANDSTONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.SANDSTONE_BRICK_SLAB, ModBlocks.SANDSTONE_BRICKS).save(recipeOutput);
+        makeSlabModded(ModBlocks.DARK_SANDSTONE_SLAB, ModBlocks.DARK_SANDSTONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.COBBLED_RED_SANDSTONE_SLAB, ModBlocks.COBBLED_RED_SANDSTONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.POLISHED_RED_SANDSTONE_SLAB, ModBlocks.POLISHED_RED_SANDSTONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.RED_SANDSTONE_BRICK_SLAB, ModBlocks.RED_SANDSTONE_BRICKS).save(recipeOutput);
+        makeSlabModded(ModBlocks.DARK_RED_SANDSTONE_SLAB, ModBlocks.DARK_RED_SANDSTONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.SMOOTH_PRISMARINE_SLAB, ModBlocks.SMOOTH_PRISMARINE).save(recipeOutput);
+        makeSlabModded(ModBlocks.POLISHED_PRISMARINE_SLAB, ModBlocks.POLISHED_PRISMARINE).save(recipeOutput);
+        makeSlabModded(ModBlocks.CUT_PRISMARINE_SLAB, ModBlocks.CUT_PRISMARINE).save(recipeOutput);
+        makeSlabModded(ModBlocks.COBBLED_NETHER_BRICK_SLAB, ModBlocks.COBBLED_NETHER_BRICKS).save(recipeOutput);
+        makeSlabModded(ModBlocks.SMOOTH_NETHER_BRICK_SLAB, ModBlocks.SMOOTH_NETHER_BRICK).save(recipeOutput);
+        makeSlabModded(ModBlocks.POLISHED_NETHER_BRICK_SLAB, ModBlocks.POLISHED_NETHER_BRICK).save(recipeOutput);
+        makeSlabModded(ModBlocks.CUT_NETHER_BRICK_SLAB, ModBlocks.CUT_NETHER_BRICKS).save(recipeOutput);
+        makeSlabModded(ModBlocks.DARK_NETHER_BRICK_SLAB, ModBlocks.DARK_NETHER_BRICKS).save(recipeOutput);
+        makeSlabModded(ModBlocks.COBBLED_RED_NETHER_BRICK_SLAB, ModBlocks.COBBLED_RED_NETHER_BRICKS).save(recipeOutput);
+        makeSlabModded(ModBlocks.SMOOTH_RED_NETHER_BRICK_SLAB, ModBlocks.SMOOTH_RED_NETHER_BRICK).save(recipeOutput);
+        makeSlabModded(ModBlocks.POLISHED_RED_NETHER_BRICK_SLAB, ModBlocks.POLISHED_RED_NETHER_BRICK).save(recipeOutput);
+        makeSlabModded(ModBlocks.CUT_RED_NETHER_BRICK_SLAB, ModBlocks.CUT_RED_NETHER_BRICKS).save(recipeOutput);
+        makeSlabModded(ModBlocks.DARK_RED_NETHER_BRICK_SLAB, ModBlocks.DARK_RED_NETHER_BRICKS).save(recipeOutput);
+        makeSlabVanilla(ModBlocks.BASALT_SLAB, Blocks.BASALT).save(recipeOutput);
+        makeSlabModded(ModBlocks.COBBLED_BASALT_SLAB, ModBlocks.COBBLED_BASALT).save(recipeOutput);
+        makeSlabVanilla(ModBlocks.SMOOTH_BASALT_SLAB, Blocks.SMOOTH_BASALT).save(recipeOutput);
+        makeSlabModded(ModBlocks.POLISHED_BASALT_SLAB, ModBlocks.POLISHED_BASALT).save(recipeOutput);
+        makeSlabModded(ModBlocks.CUT_BASALT_SLAB, ModBlocks.CUT_BASALT).save(recipeOutput);
+        makeSlabModded(ModBlocks.BASALT_BRICK_SLAB, ModBlocks.BASALT_BRICKS).save(recipeOutput);
+        makeSlabModded(ModBlocks.DARK_BASALT_SLAB, ModBlocks.DARK_BASALT).save(recipeOutput);
+        makeSlabModded(ModBlocks.COBBLED_BLACKSTONE_SLAB, ModBlocks.COBBLED_BLACKSTONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.SMOOTH_BLACKSTONE_SLAB, ModBlocks.SMOOTH_BLACKSTONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.CUT_BLACKSTONE_SLAB, ModBlocks.CUT_BLACKSTONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.DARK_BLACKSTONE_SLAB, ModBlocks.DARK_BLACKSTONE).save(recipeOutput);
+        makeSlabVanilla(ModBlocks.END_STONE_SLAB, Blocks.END_STONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.COBBLED_END_STONE_SLAB, ModBlocks.COBBLED_END_STONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.SMOOTH_END_STONE_SLAB, ModBlocks.SMOOTH_END_STONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.POLISHED_END_STONE_SLAB, ModBlocks.POLISHED_END_STONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.CUT_END_STONE_SLAB, ModBlocks.CUT_END_STONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.DARK_END_STONE_SLAB, ModBlocks.DARK_END_STONE).save(recipeOutput);
+        makeSlabModded(ModBlocks.COBBLED_PURPUR_SLAB, ModBlocks.COBBLED_PURPUR).save(recipeOutput);
+        makeSlabModded(ModBlocks.SMOOTH_PURPUR_SLAB, ModBlocks.SMOOTH_PURPUR).save(recipeOutput);
+        makeSlabModded(ModBlocks.POLISHED_PURPUR_SLAB, ModBlocks.POLISHED_PURPUR).save(recipeOutput);
+        makeSlabModded(ModBlocks.CUT_PURPUR_SLAB, ModBlocks.CUT_PURPUR).save(recipeOutput);
+        makeSlabModded(ModBlocks.PURPUR_BRICK_SLAB, ModBlocks.PURPUR_BRICKS).save(recipeOutput);
+        makeSlabModded(ModBlocks.DARK_PURPUR_SLAB, ModBlocks.DARK_PURPUR).save(recipeOutput);
+        makeSlabModded(ModBlocks.COBBLED_QUARTZ_SLAB, ModBlocks.COBBLED_QUARTZ).save(recipeOutput);
+        makeSlabModded(ModBlocks.POLISHED_QUARTZ_SLAB, ModBlocks.POLISHED_QUARTZ).save(recipeOutput);
+        makeSlabModded(ModBlocks.CUT_QUARTZ_SLAB, ModBlocks.CUT_QUARTZ).save(recipeOutput);
+        makeSlabModded(ModBlocks.QUARTZ_BRICK_SLAB, ModBlocks.QUARTZ_BRICKS).save(recipeOutput);
+        makeSlabModded(ModBlocks.DARK_QUARTZ_SLAB, ModBlocks.DARK_QUARTZ).save(recipeOutput);
+        //Walls
+        makeWallVanilla(ModBlocks.SMOOTH_STONE_WALL, Blocks.SMOOTH_STONE).save(recipeOutput);
+        makeWallModded(ModBlocks.COBBLED_SMOOTH_STONE_WALL, ModBlocks.COBBLED_SMOOTH_STONE).save(recipeOutput);
+        makeWallModded(ModBlocks.POLISHED_SMOOTH_STONE_WALL, ModBlocks.POLISHED_SMOOTH_STONE).save(recipeOutput);
+        makeWallModded(ModBlocks.SMOOTH_STONE_BRICK_WALL, ModBlocks.SMOOTH_STONE_BRICKS).save(recipeOutput);
+        makeWallVanilla(ModBlocks.STONE_WALL, Blocks.STONE).save(recipeOutput);
+        makeWallModded(ModBlocks.POLISHED_STONE_WALL, ModBlocks.POLISHED_STONE).save(recipeOutput);
+        makeWallModded(ModBlocks.MOSSY_STONE_WALL, ModBlocks.MOSSY_STONE).save(recipeOutput);
+        makeWallModded(ModBlocks.POLISHED_MOSSY_STONE_WALL, ModBlocks.POLISHED_MOSSY_STONE).save(recipeOutput);
+        makeWallModded(ModBlocks.COBBLED_GRANITE_WALL, ModBlocks.COBBLED_GRANITE).save(recipeOutput);
+        makeWallVanilla(ModBlocks.POLISHED_GRANITE_WALL, Blocks.POLISHED_GRANITE).save(recipeOutput);
+        makeWallModded(ModBlocks.GRANITE_BRICK_WALL, ModBlocks.GRANITE_BRICKS).save(recipeOutput);
+        makeWallModded(ModBlocks.COBBLED_DIORITE_WALL, ModBlocks.COBBLED_DIORITE).save(recipeOutput);
+        makeWallVanilla(ModBlocks.POLISHED_DIORITE_WALL, Blocks.POLISHED_DIORITE).save(recipeOutput);
+        makeWallModded(ModBlocks.DIORITE_BRICK_WALL, ModBlocks.DIORITE_BRICKS).save(recipeOutput);
+        makeWallModded(ModBlocks.COBBLED_ANDESITE_WALL, ModBlocks.COBBLED_ANDESITE).save(recipeOutput);
+        makeWallVanilla(ModBlocks.POLISHED_ANDESITE_WALL, Blocks.POLISHED_ANDESITE).save(recipeOutput);
+        makeWallModded(ModBlocks.ANDESITE_BRICK_WALL, ModBlocks.ANDESITE_BRICKS).save(recipeOutput);
+        makeWallVanilla(ModBlocks.DEEPSLATE_WALL, Blocks.DEEPSLATE).save(recipeOutput);
+        makeWallModded(ModBlocks.COBBLED_BRICK_WALL, ModBlocks.COBBLED_BRICKS).save(recipeOutput);
+        makeWallModded(ModBlocks.POLISHED_BRICK_WALL, ModBlocks.POLISHED_BRICK).save(recipeOutput);
+            //TODO: Make packed mud build set
+            //makeWallVanilla(ModBlocks.MUD_WALL, Blocks.PACKED_MUD).save(recipeOutput);
+        makeWallModded(ModBlocks.COBBLED_MUD_WALL, ModBlocks.COBBLED_MUD).save(recipeOutput);
+        makeWallModded(ModBlocks.POLISHED_MUD_WALL, ModBlocks.POLISHED_MUD).save(recipeOutput);
+        makeWallModded(ModBlocks.COBBLED_SANDSTONE_WALL, ModBlocks.COBBLED_SANDSTONE).save(recipeOutput);
+        makeWallModded(ModBlocks.POLISHED_SANDSTONE_WALL, ModBlocks.POLISHED_SANDSTONE).save(recipeOutput);
+        makeWallModded(ModBlocks.SANDSTONE_BRICK_WALL, ModBlocks.SANDSTONE_BRICKS).save(recipeOutput);
+        makeWallModded(ModBlocks.COBBLED_RED_SANDSTONE_WALL, ModBlocks.COBBLED_RED_SANDSTONE).save(recipeOutput);
+        makeWallModded(ModBlocks.POLISHED_RED_SANDSTONE_WALL, ModBlocks.POLISHED_RED_SANDSTONE).save(recipeOutput);
+        makeWallModded(ModBlocks.RED_SANDSTONE_BRICK_WALL, ModBlocks.RED_SANDSTONE_BRICKS).save(recipeOutput);
+        makeWallModded(ModBlocks.POLISHED_PRISMARINE_WALL, ModBlocks.POLISHED_PRISMARINE).save(recipeOutput);
+        makeWallModded(ModBlocks.COBBLED_NETHER_BRICK_WALL, ModBlocks.COBBLED_NETHER_BRICKS).save(recipeOutput);
+        makeWallModded(ModBlocks.POLISHED_NETHER_BRICK_WALL, ModBlocks.POLISHED_NETHER_BRICK).save(recipeOutput);
+        makeWallModded(ModBlocks.COBBLED_RED_NETHER_BRICK_WALL, ModBlocks.COBBLED_RED_NETHER_BRICKS).save(recipeOutput);
+        makeWallModded(ModBlocks.POLISHED_RED_NETHER_BRICK_WALL, ModBlocks.POLISHED_RED_NETHER_BRICK).save(recipeOutput);
+        makeWallVanilla(ModBlocks.BASALT_WALL, Blocks.BASALT).save(recipeOutput);
+        makeWallModded(ModBlocks.COBBLED_BASALT_WALL, ModBlocks.COBBLED_BASALT).save(recipeOutput);
+        makeWallModded(ModBlocks.POLISHED_BASALT_WALL, ModBlocks.POLISHED_BASALT).save(recipeOutput);
+        makeWallModded(ModBlocks.BASALT_BRICK_WALL, ModBlocks.BASALT_BRICKS).save(recipeOutput);
+        makeWallModded(ModBlocks.COBBLED_BLACKSTONE_WALL, ModBlocks.COBBLED_BLACKSTONE).save(recipeOutput);
+        makeWallVanilla(ModBlocks.END_STONE_WALL, Blocks.END_STONE).save(recipeOutput);
+        makeWallModded(ModBlocks.COBBLED_END_STONE_WALL, ModBlocks.COBBLED_END_STONE).save(recipeOutput);
+        makeWallModded(ModBlocks.POLISHED_END_STONE_WALL, ModBlocks.POLISHED_END_STONE).save(recipeOutput);
+        makeWallVanilla(ModBlocks.PURPUR_WALL, Blocks.PURPUR_BLOCK).save(recipeOutput);
+        makeWallModded(ModBlocks.COBBLED_PURPUR_WALL, ModBlocks.COBBLED_PURPUR).save(recipeOutput);
+        makeWallModded(ModBlocks.POLISHED_PURPUR_WALL, ModBlocks.POLISHED_PURPUR).save(recipeOutput);
+        makeWallModded(ModBlocks.PURPUR_BRICK_WALL, ModBlocks.PURPUR_BRICKS).save(recipeOutput);
+        makeWallModded(ModBlocks.COBBLED_QUARTZ_WALL, ModBlocks.COBBLED_QUARTZ).save(recipeOutput);
+        makeWallModded(ModBlocks.POLISHED_QUARTZ_WALL, ModBlocks.POLISHED_QUARTZ).save(recipeOutput);
+        makeWallModded(ModBlocks.QUARTZ_BRICK_WALL, ModBlocks.QUARTZ_BRICKS).save(recipeOutput);
 
+    }
+    public ShapedRecipeBuilder makeStairsModded(Supplier<? extends Block> bricksOut, DeferredBlock<Block> blockIn) {
+        return ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, bricksOut.get(), 4)
+                .pattern("B  ")
+                .pattern("BB ")
+                .pattern("BBB")
+                .define('B', blockIn.get())
+                .unlockedBy("has_" + BuiltInRegistries.BLOCK.getKey(blockIn.get()).getPath(), has(blockIn.get()));
+    }
+    public ShapedRecipeBuilder makeStairsVanilla(Supplier<? extends Block> bricksOut, Block blockIn) {
+        return ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, bricksOut.get(), 4)
+                .pattern("B  ")
+                .pattern("BB ")
+                .pattern("BBB")
+                .define('B', blockIn)
+                .unlockedBy("has_" + BuiltInRegistries.BLOCK.getKey(blockIn).getPath(), has(blockIn));
+    }
+    public ShapedRecipeBuilder makeWallModded(Supplier<? extends Block> bricksOut, DeferredBlock<Block> blockIn) {
+        return ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, bricksOut.get(), 4)
+                .pattern("BBB")
+                .pattern("BBB")
+                .define('B', blockIn.get())
+                .unlockedBy("has_" + BuiltInRegistries.BLOCK.getKey(blockIn.get()).getPath(), has(blockIn.get()));
+    }
+    public ShapedRecipeBuilder makeWallVanilla(Supplier<? extends Block> bricksOut, Block blockIn) {
+        return ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, bricksOut.get(), 4)
+                .pattern("BBB")
+                .pattern("BBB")
+                .define('B', blockIn)
+                .unlockedBy("has_" + BuiltInRegistries.BLOCK.getKey(blockIn).getPath(), has(blockIn));
+    }
+    public ShapedRecipeBuilder makeSlabModded(Supplier<? extends Block> bricksOut, DeferredBlock<Block> blockIn) {
+        return ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, bricksOut.get(), 4)
+                .pattern("BB ")
+                .define('B', blockIn.get())
+                .unlockedBy("has_" + BuiltInRegistries.BLOCK.getKey(blockIn.get()).getPath(), has(blockIn.get()));
+    }
+    public ShapedRecipeBuilder makeSlabVanilla(Supplier<? extends Block> bricksOut, Block blockIn) {
+        return ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, bricksOut.get(), 4)
+                .pattern("BB ")
+                .define('B', blockIn)
+                .unlockedBy("has_" + BuiltInRegistries.BLOCK.getKey(blockIn).getPath(), has(blockIn));
+    }
     public ShapedRecipeBuilder makePolishedModded(Supplier<? extends Block> bricksOut, DeferredBlock<Block> blockIn) {
         return ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, bricksOut.get(), 4)
                 .pattern(" B ")

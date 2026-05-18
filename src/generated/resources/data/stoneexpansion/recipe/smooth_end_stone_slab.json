@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "stoneexpansion:smooth_end_stone"
+    }
+  },
+  "pattern": [
+    "BB "
+  ],
+  "result": {
+    "count": 4,
+    "id": "stoneexpansion:smooth_end_stone_slab"
+  }
+}

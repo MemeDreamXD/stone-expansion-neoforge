@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dark_nether_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stoneexpansion:dark_nether_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "stoneexpansion:dark_nether_brick_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dark_nether_bricks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "stoneexpansion:dark_nether_brick_slab"
+    ]
+  }
+}

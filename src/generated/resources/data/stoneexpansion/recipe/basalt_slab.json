@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "minecraft:basalt"
+    }
+  },
+  "pattern": [
+    "BB "
+  ],
+  "result": {
+    "count": 4,
+    "id": "stoneexpansion:basalt_slab"
+  }
+}

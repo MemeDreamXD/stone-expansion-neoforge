@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "stoneexpansion:polished_sandstone"
+    }
+  },
+  "pattern": [
+    "BB "
+  ],
+  "result": {
+    "count": 4,
+    "id": "stoneexpansion:polished_sandstone_slab"
+  }
+}

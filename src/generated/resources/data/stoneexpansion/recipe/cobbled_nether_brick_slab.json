@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "stoneexpansion:cobbled_nether_bricks"
+    }
+  },
+  "pattern": [
+    "BB "
+  ],
+  "result": {
+    "count": 4,
+    "id": "stoneexpansion:cobbled_nether_brick_slab"
+  }
+}
