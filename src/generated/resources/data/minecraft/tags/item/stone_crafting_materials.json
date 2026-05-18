@@ -1,0 +1,24 @@
+{
+  "remove": [
+    "minecraft:blackstone"
+  ],
+  "values": [
+    "stoneexpansion:cobbled_smooth_stone",
+    "minecraft:mossy_cobblestone",
+    "stoneexpansion:cobbled_granite",
+    "stoneexpansion:cobbled_diorite",
+    "stoneexpansion:cobbled_andesite",
+    "stoneexpansion:cobbled_bricks",
+    "stoneexpansion:cobbled_mud",
+    "stoneexpansion:cobbled_sandstone",
+    "stoneexpansion:cobbled_red_sandstone",
+    "minecraft:prismarine",
+    "stoneexpansion:cobbled_nether_bricks",
+    "stoneexpansion:cobbled_red_nether_bricks",
+    "stoneexpansion:cobbled_basalt",
+    "stoneexpansion:cobbled_blackstone",
+    "stoneexpansion:cobbled_end_stone",
+    "stoneexpansion:cobbled_purpur",
+    "stoneexpansion:cobbled_quartz"
+  ]
+}
