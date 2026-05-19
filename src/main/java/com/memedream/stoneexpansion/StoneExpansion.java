@@ -1,6 +1,13 @@
 package com.memedream.stoneexpansion;
 
+import net.minecraft.network.chat.Component;
+import net.minecraft.server.packs.PackType;
+import net.minecraft.server.packs.PathPackResources;
+import net.minecraft.server.packs.repository.Pack;
+import net.minecraft.server.packs.repository.PackSource;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.neoforged.fml.ModList;
+import net.neoforged.neoforge.event.AddPackFindersEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -8,7 +15,6 @@ import com.mojang.logging.LogUtils;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
-import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
@@ -34,15 +40,17 @@ public class StoneExpansion
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
-
+        // Register Items / Blocks
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
-        // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
+        // Add config option
+        // modEventBus.addListener(this::addVanillaDatapack);
+
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
-        modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+        modContainer.registerConfig(net.neoforged.fml.config.ModConfig.Type.COMMON, ModConfig.SPEC);
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
@@ -442,7 +450,6 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_QUARTZ_SLAB);
             // Dripstone
         }
-
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

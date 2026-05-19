@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "stoneexpansion:cobbled_andesite"
+    },
+    {
+      "tag": "c:nuggets/zinc"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:andesite_alloy"
+    }
+  ]
+}
