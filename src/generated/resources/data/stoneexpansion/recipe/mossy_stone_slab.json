@@ -7,10 +7,10 @@
     }
   },
   "pattern": [
-    "BB "
+    "BBB"
   ],
   "result": {
-    "count": 4,
+    "count": 6,
     "id": "stoneexpansion:mossy_stone_slab"
   }
 }

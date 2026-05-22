@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_end_stone": {
+    "has_cobbled_end_stone": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:end_stone"
+            "items": "stoneexpansion:cobbled_end_stone"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_end_stone"
+      "has_cobbled_end_stone"
     ]
   ],
   "rewards": {

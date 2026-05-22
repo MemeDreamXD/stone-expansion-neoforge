@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_smooth_prismarine": {
+    "has_block": {
       "conditions": {
         "items": [
           {
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_smooth_prismarine"
+      "has_block"
     ]
   ],
   "rewards": {

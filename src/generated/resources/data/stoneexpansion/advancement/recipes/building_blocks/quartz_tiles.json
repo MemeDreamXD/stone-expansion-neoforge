@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "stoneexpansion:quartz_bricks"
+            "items": "minecraft:quartz_bricks"
           }
         ]
       },

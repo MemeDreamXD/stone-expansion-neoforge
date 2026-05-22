@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "B": {
-      "item": "minecraft:bricks"
+      "item": "stoneexpansion:cobbled_bricks"
     }
   },
   "pattern": [

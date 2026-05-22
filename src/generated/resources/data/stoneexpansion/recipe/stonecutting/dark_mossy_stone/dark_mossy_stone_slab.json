@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "stoneexpansion:dark_mossy_stone"
+  },
+  "result": {
+    "count": 2,
+    "id": "stoneexpansion:dark_mossy_stone_slab"
+  }
+}

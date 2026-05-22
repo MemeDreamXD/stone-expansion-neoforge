@@ -370,7 +370,6 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.POLISHED_QUARTZ_WALL.get());
         dropSelf(ModBlocks.CUT_QUARTZ.get());
         dropSelf(ModBlocks.CUT_QUARTZ_SLAB.get());
-        dropSelf(ModBlocks.QUARTZ_BRICKS.get());
         dropSelf(ModBlocks.QUARTZ_BRICK_STAIRS.get());
         dropSelf(ModBlocks.QUARTZ_BRICK_SLAB.get());
         dropSelf(ModBlocks.QUARTZ_BRICK_WALL.get());

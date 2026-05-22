@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "B": {
-      "item": "minecraft:packed_mud"
+      "item": "stoneexpansion:cobbled_mud"
     }
   },
   "pattern": [

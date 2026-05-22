@@ -4,7 +4,7 @@
   "cookingtime": 200,
   "experience": 0.1,
   "ingredient": {
-    "item": "stoneexpansion:cobbled_red_nether_bricks"
+    "item": "minecraft:red_nether_bricks"
   },
   "result": {
     "count": 1,

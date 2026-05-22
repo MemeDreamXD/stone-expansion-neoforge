@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_sandstone": {
+    "has_cobbled_sandstone": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:sandstone"
+            "items": "stoneexpansion:cobbled_sandstone"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_sandstone"
+      "has_cobbled_sandstone"
     ]
   ],
   "rewards": {

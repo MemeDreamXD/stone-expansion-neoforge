@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dark_diorite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stoneexpansion:dark_diorite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "stoneexpansion:stonecutting/dark_diorite/dark_diorite_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dark_diorite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "stoneexpansion:stonecutting/dark_diorite/dark_diorite_slab"
+    ]
+  }
+}

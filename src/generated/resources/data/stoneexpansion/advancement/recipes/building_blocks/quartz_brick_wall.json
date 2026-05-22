@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_quartz_bricks": {
+    "has_block": {
       "conditions": {
         "items": [
           {
-            "items": "stoneexpansion:quartz_bricks"
+            "items": "minecraft:quartz_bricks"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_quartz_bricks"
+      "has_block"
     ]
   ],
   "rewards": {

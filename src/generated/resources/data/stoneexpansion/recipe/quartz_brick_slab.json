@@ -3,14 +3,14 @@
   "category": "building",
   "key": {
     "B": {
-      "item": "stoneexpansion:quartz_bricks"
+      "item": "minecraft:quartz_bricks"
     }
   },
   "pattern": [
-    "BB "
+    "BBB"
   ],
   "result": {
-    "count": 4,
+    "count": 6,
     "id": "stoneexpansion:quartz_brick_slab"
   }
 }

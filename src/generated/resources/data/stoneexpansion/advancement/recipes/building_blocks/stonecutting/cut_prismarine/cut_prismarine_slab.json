@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cut_prismarine": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stoneexpansion:cut_prismarine"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "stoneexpansion:stonecutting/cut_prismarine/cut_prismarine_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cut_prismarine"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "stoneexpansion:stonecutting/cut_prismarine/cut_prismarine_slab"
+    ]
+  }
+}

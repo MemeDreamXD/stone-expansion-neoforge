@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "B": {
-      "item": "stoneexpansion:mossy_stone"
+      "item": "minecraft:mossy_cobblestone"
     }
   },
   "pattern": [

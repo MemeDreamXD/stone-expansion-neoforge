@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "S": {
+    "B": {
       "item": "stoneexpansion:polished_red_nether_brick_slab"
     }
   },
   "pattern": [
-    "S",
-    "S"
+    "B",
+    "B"
   ],
   "result": {
     "count": 1,

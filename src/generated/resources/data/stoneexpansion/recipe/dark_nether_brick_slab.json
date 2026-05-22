@@ -7,10 +7,10 @@
     }
   },
   "pattern": [
-    "BB "
+    "BBB"
   ],
   "result": {
-    "count": 4,
+    "count": 6,
     "id": "stoneexpansion:dark_nether_brick_slab"
   }
 }

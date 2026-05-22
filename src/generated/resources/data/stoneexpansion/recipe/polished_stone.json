@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "B": {
-      "item": "minecraft:stone"
+      "item": "minecraft:cobblestone"
     }
   },
   "pattern": [
