@@ -243,6 +243,9 @@ public class ModRecipeProvider extends RecipeProvider {
 	private void makeBasicRecipeForType(Variants variant, ItemLike input, ItemLike output, RecipeOutput recipeOutput) {
 		String inputKey = BuiltInRegistries.ITEM.getKey(input.asItem()).getPath();
 		switch (variant) {
+			case COBBLED -> SimpleCookingRecipeBuilder.smelting(Ingredient.of(output), RecipeCategory.BUILDING_BLOCKS, input, 0.1F, 200)
+					.unlockedBy("has_" + inputKey, has(output))
+					.save(recipeOutput, inputKey + "_from_cobbled");
 			case SMOOTH, CRACKED_BRICKS ->
 					SimpleCookingRecipeBuilder.smelting(Ingredient.of(input), RecipeCategory.BUILDING_BLOCKS, output, 0.1F, 200)
 							.unlockedBy("has_" + inputKey, has(input))

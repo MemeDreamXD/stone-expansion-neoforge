@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_mossy_stone": {
+    "has_andesite": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:mossy_cobblestone"
+            "items": "stoneexpansion:cobbled_andesite"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "stoneexpansion:mossy_stone"
+        "recipe": "minecraft:andesite_from_cobbled"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_mossy_stone"
+      "has_andesite"
     ]
   ],
   "rewards": {
     "recipes": [
-      "stoneexpansion:mossy_stone"
+      "minecraft:andesite_from_cobbled"
     ]
   }
 }
