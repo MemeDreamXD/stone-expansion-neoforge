@@ -440,7 +440,6 @@ public class StoneExpansion
             event.accept(ModBlocks.POLISHED_QUARTZ_WALL);
             event.accept(ModBlocks.CUT_QUARTZ);
             event.accept(ModBlocks.CUT_QUARTZ_SLAB);
-            event.accept(Blocks.QUARTZ_BRICKS);
             event.accept(ModBlocks.QUARTZ_BRICK_STAIRS);
             event.accept(ModBlocks.QUARTZ_BRICK_SLAB);
             event.accept(ModBlocks.QUARTZ_BRICK_WALL);
