@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "B": {
-      "item": "minecraft:purpur_block"
+      "item": "stoneexpansion:cobbled_purpur"
     }
   },
   "pattern": [

@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_packed_mud": {
+    "has_cobbled_mud": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:packed_mud"
+            "items": "stoneexpansion:cobbled_mud"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_packed_mud"
+      "has_cobbled_mud"
     ]
   ],
   "rewards": {

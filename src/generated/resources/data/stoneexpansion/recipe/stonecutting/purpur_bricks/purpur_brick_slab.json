@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "stoneexpansion:purpur_bricks"
+  },
+  "result": {
+    "count": 2,
+    "id": "stoneexpansion:purpur_brick_slab"
+  }
+}

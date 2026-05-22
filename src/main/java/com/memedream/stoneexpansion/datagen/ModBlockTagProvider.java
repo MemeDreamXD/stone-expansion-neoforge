@@ -372,7 +372,6 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.POLISHED_QUARTZ_WALL.get())
                 .add(ModBlocks.CUT_QUARTZ.get())
                 .add(ModBlocks.CUT_QUARTZ_SLAB.get())
-                .add(ModBlocks.QUARTZ_BRICKS.get())
                 .add(ModBlocks.QUARTZ_BRICK_STAIRS.get())
                 .add(ModBlocks.QUARTZ_BRICK_SLAB.get())
                 .add(ModBlocks.QUARTZ_BRICK_WALL.get())

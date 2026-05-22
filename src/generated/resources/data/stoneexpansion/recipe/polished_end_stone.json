@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "B": {
-      "item": "minecraft:end_stone"
+      "item": "stoneexpansion:cobbled_end_stone"
     }
   },
   "pattern": [

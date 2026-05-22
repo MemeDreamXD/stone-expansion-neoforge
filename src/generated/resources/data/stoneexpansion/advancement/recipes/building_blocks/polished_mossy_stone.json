@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_mossy_stone": {
+    "has_mossy_cobblestone": {
       "conditions": {
         "items": [
           {
-            "items": "stoneexpansion:mossy_stone"
+            "items": "minecraft:mossy_cobblestone"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_mossy_stone"
+      "has_mossy_cobblestone"
     ]
   ],
   "rewards": {

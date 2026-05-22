@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_purpur_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stoneexpansion:cobbled_purpur"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "stoneexpansion:purpur_block_from_cobbled"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_purpur_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "stoneexpansion:purpur_block_from_cobbled"
+    ]
+  }
+}

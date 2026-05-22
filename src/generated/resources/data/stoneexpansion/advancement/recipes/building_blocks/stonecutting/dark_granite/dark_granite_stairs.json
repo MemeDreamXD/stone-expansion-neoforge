@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dark_granite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stoneexpansion:dark_granite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "stoneexpansion:stonecutting/dark_granite/dark_granite_stairs"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dark_granite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "stoneexpansion:stonecutting/dark_granite/dark_granite_stairs"
+    ]
+  }
+}

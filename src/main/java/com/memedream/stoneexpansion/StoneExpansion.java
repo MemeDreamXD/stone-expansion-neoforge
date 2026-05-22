@@ -6,6 +6,7 @@ import net.minecraft.server.packs.PathPackResources;
 import net.minecraft.server.packs.repository.Pack;
 import net.minecraft.server.packs.repository.PackSource;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.block.Blocks;
 import net.neoforged.fml.ModList;
 import net.neoforged.neoforge.event.AddPackFindersEvent;
 import org.slf4j.Logger;
@@ -439,7 +440,6 @@ public class StoneExpansion
             event.accept(ModBlocks.POLISHED_QUARTZ_WALL);
             event.accept(ModBlocks.CUT_QUARTZ);
             event.accept(ModBlocks.CUT_QUARTZ_SLAB);
-            event.accept(ModBlocks.QUARTZ_BRICKS);
             event.accept(ModBlocks.QUARTZ_BRICK_STAIRS);
             event.accept(ModBlocks.QUARTZ_BRICK_SLAB);
             event.accept(ModBlocks.QUARTZ_BRICK_WALL);

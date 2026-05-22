@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "stoneexpansion:cobbled_granite"
+  },
+  "result": {
+    "count": 1,
+    "id": "stoneexpansion:cobbled_granite_wall"
+  }
+}

@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "B": {
-      "item": "minecraft:sandstone"
+      "item": "stoneexpansion:cobbled_sandstone"
     }
   },
   "pattern": [

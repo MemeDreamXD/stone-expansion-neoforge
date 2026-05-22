@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "S": {
+    "B": {
       "item": "minecraft:polished_diorite_slab"
     }
   },
   "pattern": [
-    "S",
-    "S"
+    "B",
+    "B"
   ],
   "result": {
     "count": 1,

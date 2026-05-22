@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dark_mud": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stoneexpansion:dark_mud"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "stoneexpansion:stonecutting/dark_mud/dark_mud_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dark_mud"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "stoneexpansion:stonecutting/dark_mud/dark_mud_slab"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nether_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stoneexpansion:cobbled_nether_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "stoneexpansion:nether_bricks_from_cobbled"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_nether_bricks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "stoneexpansion:nether_bricks_from_cobbled"
+    ]
+  }
+}

@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "B": {
-      "item": "minecraft:smooth_stone"
+      "item": "stoneexpansion:cobbled_smooth_stone"
     }
   },
   "pattern": [
