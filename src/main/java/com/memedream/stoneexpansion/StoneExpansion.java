@@ -226,6 +226,9 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_BRICK_STAIRS);
             event.accept(ModBlocks.DARK_BRICK_SLAB);
             // Mud
+            event.accept(ModBlocks.PACKED_MUD_STAIRS);
+            event.accept(ModBlocks.PACKED_MUD_SLAB);
+            event.accept(ModBlocks.PACKED_MUD_WALL);
             event.accept(ModBlocks.COBBLED_MUD);
             event.accept(ModBlocks.COBBLED_MUD_STAIRS);
             event.accept(ModBlocks.COBBLED_MUD_SLAB);

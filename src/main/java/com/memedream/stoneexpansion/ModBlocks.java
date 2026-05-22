@@ -15,7 +15,6 @@ public class ModBlocks {
             DeferredRegister.createBlocks(StoneExpansion.MOD_ID);
 
     // SMOOTH STONE
-    //TODO: Rename Vanilla "Smooth Stone" to "SMOOTH_STONE"
     public static final DeferredBlock<StairBlock> SMOOTH_STONE_STAIRS = registerBlock("smooth_stone_stairs",
             () -> new StairBlock(Blocks.SMOOTH_STONE.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE)));
     public static final DeferredBlock<WallBlock> SMOOTH_STONE_WALL = registerBlock("smooth_stone_wall",
@@ -336,6 +335,12 @@ public class ModBlocks {
     public static final DeferredBlock<SlabBlock> DARK_BRICK_SLAB = registerBlock("dark_brick_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICKS)));
     // Packed Mud
+    public static final DeferredBlock<StairBlock> PACKED_MUD_STAIRS = registerBlock("packed_mud_stairs",
+            () -> new StairBlock(Blocks.PACKED_MUD.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_MUD)));
+    public static final DeferredBlock<SlabBlock> PACKED_MUD_SLAB = registerBlock("packed_mud_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_MUD)));
+    public static final DeferredBlock<WallBlock> PACKED_MUD_WALL = registerBlock("packed_mud_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_MUD)));
     public static final DeferredBlock<Block> COBBLED_MUD = registerBlock("cobbled_mud",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_MUD)));
     public static final DeferredBlock<StairBlock> COBBLED_MUD_STAIRS = registerBlock("cobbled_mud_stairs",
