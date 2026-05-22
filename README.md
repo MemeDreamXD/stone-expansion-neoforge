@@ -1,25 +1,8 @@
+<img width="1023" height="303" alt="banner" src="https://github.com/user-attachments/assets/1c0a222c-bb95-40ae-bcd9-3082a7a89cf7" />
 
-Installation information
-=======
+An opinionated Neoforge 1.21.1+ port of Mwti's Stone Expansion (originally seen on Fabric 1.20.1)
+This port contains a few shifts in naming convention / build set completion for sanity with vanilla, including additional crafting recipes. A built in optional datapack changes vanilla block recipes and drops to utilize the expected standard set by this mod's build sets. Further updates will add block sets for popular mods as well as specific recipe tweaks to ensure maximum compatability and comfort.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
-
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+Check out the original mod here! 
+https://www.curseforge.com/minecraft/mc-mods/mwtis-stone-expansion
+https://modrinth.com/mod/stone-expansion
