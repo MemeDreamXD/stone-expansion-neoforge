@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_packed_mud": {
+    "has_purpur_block": {
       "conditions": {
         "items": [
           {
-            "items": "stoneexpansion:cobbled_mud"
+            "items": "stoneexpansion:cobbled_purpur"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:packed_mud_from_cobbled"
+        "recipe": "stoneexpansion:purpur_block_from_cobbled"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_packed_mud"
+      "has_purpur_block"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:packed_mud_from_cobbled"
+      "stoneexpansion:purpur_block_from_cobbled"
     ]
   }
 }

@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_granite": {
+    "has_diorite": {
       "conditions": {
         "items": [
           {
-            "items": "stoneexpansion:cobbled_granite"
+            "items": "stoneexpansion:cobbled_diorite"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:granite_from_cobbled"
+        "recipe": "stoneexpansion:diorite_from_cobbled"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_granite"
+      "has_diorite"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:granite_from_cobbled"
+      "stoneexpansion:diorite_from_cobbled"
     ]
   }
 }

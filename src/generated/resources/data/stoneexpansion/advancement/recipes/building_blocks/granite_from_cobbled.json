@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_bricks": {
+    "has_granite": {
       "conditions": {
         "items": [
           {
-            "items": "stoneexpansion:cobbled_bricks"
+            "items": "stoneexpansion:cobbled_granite"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:bricks_from_cobbled"
+        "recipe": "stoneexpansion:granite_from_cobbled"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_bricks"
+      "has_granite"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:bricks_from_cobbled"
+      "stoneexpansion:granite_from_cobbled"
     ]
   }
 }

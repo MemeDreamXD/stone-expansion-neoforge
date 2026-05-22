@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_blackstone": {
+    "has_packed_mud": {
       "conditions": {
         "items": [
           {
-            "items": "stoneexpansion:cobbled_blackstone"
+            "items": "stoneexpansion:cobbled_mud"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:blackstone_from_cobbled"
+        "recipe": "stoneexpansion:packed_mud_from_cobbled"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_blackstone"
+      "has_packed_mud"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:blackstone_from_cobbled"
+      "stoneexpansion:packed_mud_from_cobbled"
     ]
   }
 }

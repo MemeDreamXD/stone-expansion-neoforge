@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_andesite": {
+    "has_quartz_block": {
       "conditions": {
         "items": [
           {
-            "items": "stoneexpansion:cobbled_andesite"
+            "items": "stoneexpansion:cobbled_quartz"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:andesite_from_cobbled"
+        "recipe": "stoneexpansion:quartz_block_from_cobbled"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_andesite"
+      "has_quartz_block"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:andesite_from_cobbled"
+      "stoneexpansion:quartz_block_from_cobbled"
     ]
   }
 }

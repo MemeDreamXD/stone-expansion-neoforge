@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_purpur_block": {
+    "has_end_stone": {
       "conditions": {
         "items": [
           {
-            "items": "stoneexpansion:cobbled_purpur"
+            "items": "stoneexpansion:cobbled_end_stone"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:purpur_block_from_cobbled"
+        "recipe": "stoneexpansion:end_stone_from_cobbled"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_purpur_block"
+      "has_end_stone"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:purpur_block_from_cobbled"
+      "stoneexpansion:end_stone_from_cobbled"
     ]
   }
 }
