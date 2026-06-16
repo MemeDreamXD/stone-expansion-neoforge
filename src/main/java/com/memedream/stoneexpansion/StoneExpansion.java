@@ -1,14 +1,6 @@
 package com.memedream.stoneexpansion;
-
-import net.minecraft.network.chat.Component;
-import net.minecraft.server.packs.PackType;
-import net.minecraft.server.packs.PathPackResources;
-import net.minecraft.server.packs.repository.Pack;
-import net.minecraft.server.packs.repository.PackSource;
 import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.level.block.Blocks;
-import net.neoforged.fml.ModList;
-import net.neoforged.neoforge.event.AddPackFindersEvent;
+import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -46,12 +38,9 @@ public class StoneExpansion
         ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
-        // Add config option
-        // modEventBus.addListener(this::addVanillaDatapack);
 
-
-        // Register our mod's ModConfigSpec so that FML can create and load the config file for us
-        modContainer.registerConfig(net.neoforged.fml.config.ModConfig.Type.COMMON, ModConfig.SPEC);
+        /// Register our mod's ModConfigSpec so that FML can create and load the config file for us
+        //modContainer.registerConfig(net.neoforged.fml.config.ModConfig.Type.COMMON, ModConfig.SPEC);
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
@@ -59,18 +48,15 @@ public class StoneExpansion
     }
 
     // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+    private void addCreative(@NotNull BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            // Smooth Stone
+            /// Smooth Stone
             event.accept(ModBlocks.SMOOTH_STONE_STAIRS);
             event.accept(ModBlocks.SMOOTH_STONE_WALL);
             event.accept(ModBlocks.COBBLED_SMOOTH_STONE);
             event.accept(ModBlocks.COBBLED_SMOOTH_STONE_STAIRS);
             event.accept(ModBlocks.COBBLED_SMOOTH_STONE_SLAB);
             event.accept(ModBlocks.COBBLED_SMOOTH_STONE_WALL);
-//            event.accept(ModBlocks.SMOOTH_SMOOTH_STONE);
-//            event.accept(ModBlocks.SMOOTH_SMOOTH_STONE_STAIRS);
-//            event.accept(ModBlocks.SMOOTH_SMOOTH_STONE_SLAB);
             event.accept(ModBlocks.POLISHED_SMOOTH_STONE);
             event.accept(ModBlocks.POLISHED_SMOOTH_STONE_STAIRS);
             event.accept(ModBlocks.POLISHED_SMOOTH_STONE_SLAB);
@@ -88,11 +74,8 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_SMOOTH_STONE);
             event.accept(ModBlocks.DARK_SMOOTH_STONE_STAIRS);
             event.accept(ModBlocks.DARK_SMOOTH_STONE_SLAB);
-            // Stone
+            /// Stone
             event.accept(ModBlocks.STONE_WALL);
-            //event.accept(ModBlocks.SMOOTH_STONE);
-            //event.accept(ModBlocks.SMOOTH_STONE_STAIRS);
-            //event.accept(ModBlocks.SMOOTH_STONE_SLAB);
             event.accept(ModBlocks.POLISHED_STONE);
             event.accept(ModBlocks.POLISHED_STONE_STAIRS);
             event.accept(ModBlocks.POLISHED_STONE_SLAB);
@@ -104,7 +87,7 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_STONE);
             event.accept(ModBlocks.DARK_STONE_STAIRS);
             event.accept(ModBlocks.DARK_STONE_SLAB);
-            // Mossy Stone
+            /// Mossy Stone
             event.accept(ModBlocks.MOSSY_STONE);
             event.accept(ModBlocks.MOSSY_STONE_STAIRS);
             event.accept(ModBlocks.MOSSY_STONE_SLAB);
@@ -125,7 +108,7 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_MOSSY_STONE);
             event.accept(ModBlocks.DARK_MOSSY_STONE_STAIRS);
             event.accept(ModBlocks.DARK_MOSSY_STONE_SLAB);
-            // Granite
+            /// Granite
             event.accept(ModBlocks.COBBLED_GRANITE);
             event.accept(ModBlocks.COBBLED_GRANITE_STAIRS);
             event.accept(ModBlocks.COBBLED_GRANITE_SLAB);
@@ -147,7 +130,7 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_GRANITE);
             event.accept(ModBlocks.DARK_GRANITE_STAIRS);
             event.accept(ModBlocks.DARK_GRANITE_SLAB);
-            // Diorite
+            /// Diorite
             event.accept(ModBlocks.COBBLED_DIORITE);
             event.accept(ModBlocks.COBBLED_DIORITE_STAIRS);
             event.accept(ModBlocks.COBBLED_DIORITE_SLAB);
@@ -169,7 +152,7 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_DIORITE);
             event.accept(ModBlocks.DARK_DIORITE_STAIRS);
             event.accept(ModBlocks.DARK_DIORITE_SLAB);
-            // Andesite
+            /// Andesite
             event.accept(ModBlocks.COBBLED_ANDESITE);
             event.accept(ModBlocks.COBBLED_ANDESITE_STAIRS);
             event.accept(ModBlocks.COBBLED_ANDESITE_SLAB);
@@ -191,7 +174,7 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_ANDESITE);
             event.accept(ModBlocks.DARK_ANDESITE_STAIRS);
             event.accept(ModBlocks.DARK_ANDESITE_SLAB);
-            // Deepslate
+            /// Deepslate
             event.accept(ModBlocks.DEEPSLATE_STAIRS);
             event.accept(ModBlocks.DEEPSLATE_SLAB);
             event.accept(ModBlocks.DEEPSLATE_WALL);
@@ -204,7 +187,7 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_DEEPSLATE);
             event.accept(ModBlocks.DARK_DEEPSLATE_STAIRS);
             event.accept(ModBlocks.DARK_DEEPSLATE_SLAB);
-            // Bricks
+            /// Bricks
             event.accept(ModBlocks.COBBLED_BRICKS);
             event.accept(ModBlocks.COBBLED_BRICK_STAIRS);
             event.accept(ModBlocks.COBBLED_BRICK_SLAB);
@@ -225,7 +208,7 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_BRICKS);
             event.accept(ModBlocks.DARK_BRICK_STAIRS);
             event.accept(ModBlocks.DARK_BRICK_SLAB);
-            // Mud
+            /// Mud
             event.accept(ModBlocks.PACKED_MUD_STAIRS);
             event.accept(ModBlocks.PACKED_MUD_SLAB);
             event.accept(ModBlocks.PACKED_MUD_WALL);
@@ -249,7 +232,7 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_MUD);
             event.accept(ModBlocks.DARK_MUD_STAIRS);
             event.accept(ModBlocks.DARK_MUD_SLAB);
-            // Sandstone
+            /// Sandstone
             event.accept(ModBlocks.COBBLED_SANDSTONE);
             event.accept(ModBlocks.COBBLED_SANDSTONE_STAIRS);
             event.accept(ModBlocks.COBBLED_SANDSTONE_SLAB);
@@ -268,7 +251,7 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_SANDSTONE);
             event.accept(ModBlocks.DARK_SANDSTONE_STAIRS);
             event.accept(ModBlocks.DARK_SANDSTONE_SLAB);
-            // Red Sandstone
+            /// Red Sandstone
             event.accept(ModBlocks.COBBLED_RED_SANDSTONE);
             event.accept(ModBlocks.COBBLED_RED_SANDSTONE_STAIRS);
             event.accept(ModBlocks.COBBLED_RED_SANDSTONE_SLAB);
@@ -287,7 +270,7 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_RED_SANDSTONE);
             event.accept(ModBlocks.DARK_RED_SANDSTONE_STAIRS);
             event.accept(ModBlocks.DARK_RED_SANDSTONE_SLAB);
-            // Prismarine
+            /// Prismarine
             event.accept(ModBlocks.SMOOTH_PRISMARINE);
             event.accept(ModBlocks.SMOOTH_PRISMARINE_STAIRS);
             event.accept(ModBlocks.SMOOTH_PRISMARINE_SLAB);
@@ -301,7 +284,7 @@ public class StoneExpansion
             event.accept(ModBlocks.CRACKED_PRISMARINE_BRICKS);
             event.accept(ModBlocks.PRISMARINE_PILLAR);
             event.accept(ModBlocks.PRISMARINE_TILES);
-            // Nether Brick
+            /// Nether Brick
             event.accept(ModBlocks.COBBLED_NETHER_BRICKS);
             event.accept(ModBlocks.COBBLED_NETHER_BRICK_STAIRS);
             event.accept(ModBlocks.COBBLED_NETHER_BRICK_SLAB);
@@ -320,7 +303,7 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_NETHER_BRICKS);
             event.accept(ModBlocks.DARK_NETHER_BRICK_STAIRS);
             event.accept(ModBlocks.DARK_NETHER_BRICK_SLAB);
-            // Red Nether Brick
+            /// Red Nether Brick
             event.accept(ModBlocks.COBBLED_RED_NETHER_BRICKS);
             event.accept(ModBlocks.COBBLED_RED_NETHER_BRICK_STAIRS);
             event.accept(ModBlocks.COBBLED_RED_NETHER_BRICK_SLAB);
@@ -342,7 +325,7 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_RED_NETHER_BRICK_STAIRS);
             event.accept(ModBlocks.DARK_RED_NETHER_BRICK_SLAB);
             event.accept(ModBlocks.RED_NETHER_BRICK_FENCE);
-            // Basalt
+            /// Basalt
             event.accept(ModBlocks.BASALT_STAIRS);
             event.accept(ModBlocks.BASALT_SLAB);
             event.accept(ModBlocks.BASALT_WALL);
@@ -368,7 +351,7 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_BASALT);
             event.accept(ModBlocks.DARK_BASALT_STAIRS);
             event.accept(ModBlocks.DARK_BASALT_SLAB);
-            // Blackstone
+            /// Blackstone
             event.accept(ModBlocks.COBBLED_BLACKSTONE);
             event.accept(ModBlocks.COBBLED_BLACKSTONE_STAIRS);
             event.accept(ModBlocks.COBBLED_BLACKSTONE_SLAB);
@@ -383,7 +366,7 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_BLACKSTONE);
             event.accept(ModBlocks.DARK_BLACKSTONE_STAIRS);
             event.accept(ModBlocks.DARK_BLACKSTONE_SLAB);
-            // End Stone
+            /// End Stone
             event.accept(ModBlocks.END_STONE_STAIRS);
             event.accept(ModBlocks.END_STONE_SLAB);
             event.accept(ModBlocks.END_STONE_WALL);
@@ -407,7 +390,7 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_END_STONE);
             event.accept(ModBlocks.DARK_END_STONE_STAIRS);
             event.accept(ModBlocks.DARK_END_STONE_SLAB);
-            //Purpur
+            ///Purpur
             event.accept(ModBlocks.PURPUR_WALL);
             event.accept(ModBlocks.COBBLED_PURPUR);
             event.accept(ModBlocks.COBBLED_PURPUR_STAIRS);
@@ -432,7 +415,7 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_PURPUR);
             event.accept(ModBlocks.DARK_PURPUR_STAIRS);
             event.accept(ModBlocks.DARK_PURPUR_SLAB);
-            // Quartz
+            /// Quartz
             event.accept(ModBlocks.COBBLED_QUARTZ);
             event.accept(ModBlocks.COBBLED_QUARTZ_STAIRS);
             event.accept(ModBlocks.COBBLED_QUARTZ_SLAB);
@@ -451,7 +434,7 @@ public class StoneExpansion
             event.accept(ModBlocks.DARK_QUARTZ);
             event.accept(ModBlocks.DARK_QUARTZ_STAIRS);
             event.accept(ModBlocks.DARK_QUARTZ_SLAB);
-            // Dripstone
+            /// Dripstone
         }
     }
 

@@ -22,7 +22,6 @@ public class ModItemTagProvider extends ItemTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         tag(ItemTags.STONE_CRAFTING_MATERIALS)
-                .remove(Blocks.BLACKSTONE.asItem())
                 .add(ModBlocks.COBBLED_SMOOTH_STONE.asItem())
                 .add(Blocks.MOSSY_COBBLESTONE.asItem())
                 .add(ModBlocks.COBBLED_GRANITE.asItem())
@@ -41,7 +40,6 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.COBBLED_PURPUR.asItem())
                 .add(ModBlocks.COBBLED_QUARTZ.asItem());
         tag(ItemTags.STONE_TOOL_MATERIALS)
-                .remove(Blocks.BLACKSTONE.asItem())
                 .add(ModBlocks.COBBLED_SMOOTH_STONE.asItem())
                 .add(Blocks.MOSSY_COBBLESTONE.asItem())
                 .add(ModBlocks.COBBLED_GRANITE.asItem())

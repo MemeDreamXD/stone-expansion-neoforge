@@ -1,7 +1,4 @@
 {
-  "remove": [
-    "minecraft:blackstone"
-  ],
   "values": [
     "stoneexpansion:cobbled_smooth_stone",
     "minecraft:mossy_cobblestone",
